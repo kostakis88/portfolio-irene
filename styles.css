@@ -1,0 +1,264 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+:root {
+    --black: black;
+    --dark-grey: #a0a7b3;
+    --white: white;
+    --dark-grey-2: #1e242e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--dark-grey);
+    font-size: 1rem;
+    line-height: 1.5;
+    min-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--black);
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+h1 {
+    color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+a {
+    border-color: var(--black);
+    color: var(--white);
+    text-decoration: underline;
+    background-color: #0000;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    border: 0;
+    vertical-align: middle;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+.main-wrapper {
+    background-image: none;
+}
+
+.navbar-component {
+    border-bottom: 1px solid var(--black);
+    background-color: var(--black);
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 4.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.navbar-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.navbar-logo-link {
+    padding-left: 0;
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-menu {
+    align-items: center;
+    display: flex;
+    position: static;
+    float: right;
+}
+
+.navbar-link {
+    color: var(--white);
+    padding: .5rem 1rem;
+    transition: color .2s;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-link.navbar-current {
+    color: var(--dark-grey);
+}
+
+.section-header {
+    min-height: 60vh;
+}
+
+.padding-global {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container-medium {
+    width: 100%;
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.padding-section-large {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-bottom {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.margin-bottom.margin-bottom-xsmall {
+    margin-bottom: 1rem;
+}
+
+.margin-bottom.margin-bottom-small {
+    margin-bottom: 1.5rem;
+}
+
+.margin-bottom.margin-bottom-xxlarge {
+    margin-bottom: 5rem;
+}
+
+.header-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 7rem;
+    font-weight: 200;
+}
+
+.container-small {
+    width: 100%;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-large {
+    width: 100%;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+.text-size-large {
+    font-size: 1.25rem;
+}
+
+.text-size-regular {
+    font-size: 1rem;
+}
+
+.text-weight {
+    color: var(--white);
+    letter-spacing: 6px;
+}
+
+.portfolio-component {
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-list {
+    grid-column-gap: 3rem;
+    grid-row-gap: 4rem;
+    column-count: 2;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.portfolio-item {
+    margin-bottom: 6rem;
+    display: inline-block;
+}
+
+.portfolio-image-link {
+    width: 100%;
+    text-decoration: none;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.portfolio-image-wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.heading-style-h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.portfolio-tag-list {
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.portfolio-tag-item {
+    background-color: var(--dark-grey-2);
+    border-radius: 5px;
+    padding: .5rem .8rem;
+    font-size: .875rem;
+    font-weight: 600;
+    text-decoration: none;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.tag-text {
+    font-weight: 300;
+}
+
+.portfolio-button-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+}
