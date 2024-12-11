@@ -1,0 +1,43 @@
+.portfolio-button-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+  }
+  
+  .button {
+    border: 1px solid var(--white);
+    color: var(--white);
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0.75rem 1.5rem;
+    transition: color 0.2s, border-color 0.2s;
+  
+    &.is-link {
+      color: var(--dark-grey);
+      background-color: transparent;
+      border-style: none;
+      padding: 0.25rem 0;
+      line-height: 1;
+      text-decoration: none;
+    }
+  
+    &.is-icon {
+      grid-column-gap: 0.75rem;
+      grid-row-gap: 0.75rem;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  
+      &.is-link {
+        grid-column-gap: 0.5rem;
+        grid-row-gap: 0.5rem;
+        color: var(--dark-grey);
+      }
+    }
+  }
+  
+  .w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+  }
+  
