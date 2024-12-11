@@ -1,0 +1,47 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: var(--dark-grey);
+    font-size: 1rem;
+    line-height: 1.5;
+    min-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--black);
+  }
+  
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  
+  img {
+    max-width: 100%;
+    display: inline-block;
+    border: 0;
+    vertical-align: middle;
+  }
+  
+  b,
+  strong {
+    font-weight: bold;
+  }
+  

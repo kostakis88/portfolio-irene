@@ -1,0 +1,30 @@
+h1 {
+    color: var(--white);
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  a {
+    border-color: var(--black);
+    color: var(--white);
+    text-decoration: underline;
+    background-color: transparent;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .text-size-large {
+    font-size: 1.25rem;
+  }
+  
+  .text-size-regular {
+    font-size: 1rem;
+  }
+  
+  .text-weight {
+    color: var(--white);
+    letter-spacing: 6px;
+  }
+  
