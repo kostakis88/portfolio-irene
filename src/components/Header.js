@@ -8,7 +8,7 @@ const Header = () => {
                     <div className="padding-section-large">
                         <div className="text-align-center">
                             <div className="align-center">
-                                <div className="margin-bottom margin-bottom-small">
+                                <div className="margin-zero margin-bottom-small">
                                     <h1 className="header-text">Hi, I'm Irene 🤍</h1>
                                     <div className="image-wrapper">
                                         <img className="image" alt="" />

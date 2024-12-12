@@ -1,5 +1,6 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
+import Button from './Button';
 
 const Portfolio = () => {
 
@@ -59,10 +60,10 @@ const Portfolio = () => {
       <div className="padding-global">
         <div className="container-large">
           <div className="padding-section-large">
-            <div className="margin-bottom margin-bottom-xxlarge">
+            <div className="margin-zero margin-bottom-xxlarge">
               <div className="text-align-center">
                 <div className="align-center">
-                  <div className="margin-bottom margin-bottom-xsmall">
+                  <div className="margin-zero margin-bottom-xsmall">
                     <div className="text-weight">FEATURED WORK</div>
                   </div>
                 </div>
@@ -76,6 +77,7 @@ const Portfolio = () => {
                   ))}
                 </div>
               </div>
+              <Button />
             </div>
           </div>
         </div>
