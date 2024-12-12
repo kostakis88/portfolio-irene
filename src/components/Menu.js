@@ -1,17 +1,27 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
     return (
         <nav role="navigation" className="navbar-menu">
-            <a href="/" aria-current="page" className="navbar-link navbar-current">
+            <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? 'navbar-link navbar-current' : 'navbar-link')}
+            >
                 Home
-            </a>
-            <a href="/works" className="navbar-link">
+            </NavLink>
+            <NavLink
+                to="/works"
+                className={({ isActive }) => (isActive ? 'navbar-link navbar-current' : 'navbar-link')}
+            >
                 Work
-            </a>
-            <a href="/about" className="navbar-link">
+            </NavLink>
+            <NavLink
+                to="/about"
+                className={({ isActive }) => (isActive ? 'navbar-link navbar-current' : 'navbar-link')}
+            >
                 About
-            </a>
+            </NavLink>
         </nav>
     );
 };
