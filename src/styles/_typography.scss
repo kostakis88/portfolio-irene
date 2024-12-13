@@ -3,6 +3,15 @@ h1 {
     margin: 0;
     line-height: 1.2;
   }
+
+  h2 {
+    color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
   
   a {
     border-color: var(--black);
