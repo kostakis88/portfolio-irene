@@ -12,6 +12,15 @@ h1 {
     font-weight: 400;
     line-height: 1.2;
   }
+
+  h3 {
+    color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
   
   a {
     border-color: var(--black);
@@ -22,6 +31,27 @@ h1 {
   
   p {
     margin: 0;
+  }
+
+  sub, sup {
+    vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+  }
+
+  sup {
+    top: -.5em;
+  }
+
+  .hero-heading {
+    color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Saira Variablefont Wdth Wght, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.2;
   }
   
   .text-size-large {
