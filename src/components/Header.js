@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../images/image.png'
 
 const Header = () => {
     return (
@@ -11,7 +12,7 @@ const Header = () => {
                                 <div className="margin-zero margin-bottom-small">
                                     <h1 className="header-text">Hi, I'm Irene 🤍</h1>
                                     <div className="image-wrapper">
-                                        <img className="image" alt="" />
+                                        <img src={image} className="image" alt="" />
                                     </div>
                                 </div>
                                 <div className="container-small">

@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import FeatureList from '../components/FeatureList';
+import image from '../images/image.png'
 
 const About = () => {
   const heroSectionOne = {
@@ -10,12 +11,12 @@ const About = () => {
       content: (
         <>
           I'm a UX Designer currently working at{' '}
-          <a href="https://store.epicgames.com/en-US/" target="_blank" rel="noopener noreferrer">
+          <a href="#" target="_blank" rel="noopener noreferrer">
             Epic Games
           </a>{' '}
           on the{' '}
           <a
-            href="https://store.epicgames.com/en-US/p/fortnite--battle-royale"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,16 +38,16 @@ const About = () => {
         </>
       ),
       button: {
-        href: 'https://cdn.prod.website-files.com/65789851928ac72747df11b7/66b3cc4bdb2e335222f33ffd_Megan%20McNamee%20Resume.pdf',
+        href: '#',
         label: 'RESUME',
         target: '_blank',
         rel: 'noopener noreferrer',
       },
     },
     imageProps: {
-      src: 'https://cdn.prod.website-files.com/65789851928ac72747df11b7/65e788140f65b5323f24f0bf_4A5F2B88-732C-43D6-A70F-82AAAACA5444%20(1).jpg',
+      src: image,
       srcSet:
-        'https://cdn.prod.website-files.com/65789851928ac72747df11b7/65e788140f65b5323f24f0bf_4A5F2B88-732C-43D6-A70F-82AAAACA5444%20(1)-p-500.jpg 500w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/65e788140f65b5323f24f0bf_4A5F2B88-732C-43D6-A70F-82AAAACA5444%20(1)-p-800.jpg 800w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/65e788140f65b5323f24f0bf_4A5F2B88-732C-43D6-A70F-82AAAACA5444%20(1)-p-1080.jpg 1080w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/65e788140f65b5323f24f0bf_4A5F2B88-732C-43D6-A70F-82AAAACA5444%20(1).jpg 1179w',
+        image,
       sizes: '(max-width: 767px) 94vw, (max-width: 991px) 92vw, 43vw',
       alt: '',
       className: 'shadow-two',
@@ -72,9 +73,9 @@ const About = () => {
       ),
     },
     imageProps: {
-      src: 'https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578b9ce015e606d33dd2e8b_image.png',
+      src: image,
       srcSet:
-        'https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578b9ce015e606d33dd2e8b_image-p-500.png 500w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578b9ce015e606d33dd2e8b_image-p-800.png 800w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578b9ce015e606d33dd2e8b_image-p-1080.png 1080w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578b9ce015e606d33dd2e8b_image-p-1600.png 1600w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578b9ce015e606d33dd2e8b_image.png 1956w',
+        image,
       sizes: '(max-width: 767px) 94vw, (max-width: 991px) 92vw, 43vw',
       alt: '',
       className: 'shadow-two-2',

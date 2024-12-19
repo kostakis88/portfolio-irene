@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../images/linkedin.png'
 
 const Logo = () => {
     return (
@@ -7,7 +8,7 @@ const Logo = () => {
             aria-current="page"
         >
             <img
-                src="https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578b3d8a3462e7291e291d1_Logo.png"
+                src={image}
                 loading="lazy"
                 width="145"
                 alt="Logo"

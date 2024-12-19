@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import Menu from './Menu';
+import image from '../images/linkedin.png'
 
 const Footer = () => {
     return (
@@ -15,13 +16,13 @@ const Footer = () => {
                             </div>
                             <div className="footer-social-list">
                                 <a
-                                    href="https://www.linkedin.com/in/megan-mcnamee/"
+                                    href="#"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="footer-social-link w-inline-block"
                                 >
                                     <img
-                                        src="https://cdn.prod.website-files.com/65789851928ac72747df11b7/65789852928ac72747df124a_Icon_LinkedIn.png"
+                                        src={image}
                                         loading="lazy"
                                         width="24.5"
                                         alt="LinkedIn Icon"

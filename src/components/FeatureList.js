@@ -1,12 +1,13 @@
 import React from 'react';
+import image from '../images/image.png'
 
 const FeaturesList = () => {
     const features = [
         {
             imgSrc:
-                'https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578a43a227178ececb21910_Epic%20Games%20Logo.png',
+                image,
             imgSrcSet:
-                'https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578a43a227178ececb21910_Epic%20Games%20Logo-p-500.png 500w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578a43a227178ececb21910_Epic%20Games%20Logo-p-800.png 800w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578a43a227178ececb21910_Epic%20Games%20Logo-p-1080.png 1080w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6578a43a227178ececb21910_Epic%20Games%20Logo.png 1255w',
+                image,
             imgAlt: 'Epic Games Logo',
             description: (
                 <>
@@ -18,9 +19,9 @@ const FeaturesList = () => {
         },
         {
             imgSrc:
-                'https://cdn.prod.website-files.com/65789851928ac72747df11b7/6696b8067e5e5503b8d1ba59_Insomniac-Games-Logo-Thumb-Square-1.jpg',
+                image,
             imgSrcSet:
-                'https://cdn.prod.website-files.com/65789851928ac72747df11b7/6696b8067e5e5503b8d1ba59_Insomniac-Games-Logo-Thumb-Square-1-p-500.jpg 500w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6696b8067e5e5503b8d1ba59_Insomniac-Games-Logo-Thumb-Square-1-p-800.jpg 800w, https://cdn.prod.website-files.com/65789851928ac72747df11b7/6696b8067e5e5503b8d1ba59_Insomniac-Games-Logo-Thumb-Square-1.jpg 1000w',
+                image,
             imgAlt: 'Insomniac Games Logo',
             description: (
                 <>
