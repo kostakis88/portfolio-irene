@@ -5,33 +5,39 @@ const Work = () => {
 
     const workItems = [
         {
+            id: 1,
             title: 'Crafting an Impactful Settings Menu',
-            date: 'Analyzing best practices',
+            description: 'Analyzing best practices',
             tags: ['Personal Project'],
         },
         {
+            id: 2,
             title: 'Creating a more personal Life is Strange episode selection screen',
-            date: 'Redesign concept for episode selection screen in Life is Strange.',
+            description: 'Redesign concept for episode selection screen in Life is Strange.',
             tags: ['Personal Project'],
         },
         {
+            id: 3,
             title: 'Fortnite Battle Royale',
-            date: 'Creating engaging user experiences for Fortnite Battle Royale at Epic Games',
+            description: 'Creating engaging user experiences for Fortnite Battle Royale at Epic Games',
             tags: ['Full Time Role'],
         },
         {
+            id: 4,
             title: 'Designing a Mode Selection Menu for a Spider-Verse Game',
-            date: 'Menu design concept for a spider-verse game.',
+            description: 'Menu design concept for a spider-verse game.',
             tags: ['Personal Project'],
         },
         {
+            id: 5,
             title: "Marvel's Spider-Man 2",
-            date: "UI/UX Art Intern on Marvel's Spider-Man 2 at Insomniac Games",
+            description: "UI/UX Art Intern on Marvel's Spider-Man 2 at Insomniac Games",
             tags: ['Internship'],
         },
         {
+            id: 6,
             title: 'Designing with Accessibility - The Walking Dead Final Season',
-            date: 'Analyzing design approaches presented throughout The Walking Dead Final Season',
+            description: 'Analyzing design approaches presented throughout The Walking Dead Final Season',
             tags: ['Personal Project'],
         },
     ];
@@ -49,8 +55,8 @@ const Work = () => {
                             </div>
                         </div>
                         <div className="work-component">
-                            {workItems.map((item, index) => (
-                                <WorkItem key={index} {...item} />
+                            {workItems.map((item) => (
+                                <WorkItem key={item.id} id={item.id} title={item.title} description={item.description} tags={item.tags} />
                             ))}
                         </div>
                     </div>
