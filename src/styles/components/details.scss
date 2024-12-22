@@ -1,0 +1,48 @@
+.portfolio-header-content-wrapper {
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1.5fr 1fr;
+    grid-auto-columns: 1fr;
+    align-items: start;
+    display: grid;
+  }
+
+  .portfolio-header-tag-list {
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+    flex-flow: wrap;
+    margin-top: 1.5rem;
+    display: flex;
+  }
+
+  .portfolio-header-tag-item {
+    background-color: var(--dark-grey-2);
+    border-radius: 5px;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .portfolio-header-image-wrapper {
+    flex: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  }
+
+  .portfolio-header-image {
+    height: 800px;
+  width: 100%;
+  }
+
+  .figure-type-image {
+    text-align: center;
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }

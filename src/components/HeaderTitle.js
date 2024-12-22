@@ -3,7 +3,7 @@ import React from 'react';
 const HeaderTitle = ({ title, subtitle, tags }) => {
   return (
     <div className="portfolio-header-content-left">
-      <div className="margin-bottom margin-small">
+      <div className="margin-zero margin-bottom-small">
         <h1>{title}</h1>
       </div>
       <div className="text-size-medium">{subtitle}</div>
@@ -12,7 +12,7 @@ const HeaderTitle = ({ title, subtitle, tags }) => {
           <a
             key={index}
             href={tag.href}
-            className="portfolio-header-tag-item w-inline-block"
+            className="portfolio-header-tag-item"
           >
             <div className="tag-text">{tag.label}</div>
           </a>

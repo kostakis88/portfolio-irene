@@ -6,6 +6,7 @@ const Logo = () => {
         <a
             href="/"
             aria-current="page"
+            className="navbar-logo"
         >
             <img
                 src={image}

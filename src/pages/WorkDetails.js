@@ -13,7 +13,7 @@ const WorkDetails = () => {
   const mockWorkDetails = {
     1: {
       headerData: {
-        title: 'Creating a more personal Life is Strange episode selection screen',
+        title: 'Crafting an Impactful Settings Menu',
         subtitle: 'Redesign concept for the episode selection screen in Life is Strange.',
         tags: [
           { href: '/services/personal-project', label: 'Personal Project' },
@@ -111,7 +111,9 @@ const WorkDetails = () => {
       <section className="section-portfolio-content">
         <div className="padding-global">
           <div className="container-small">
-            <ContentSection content={contentData} />
+            <div className="padding-section-large">
+              <ContentSection content={contentData} />
+            </div>
           </div>
         </div>
       </section>

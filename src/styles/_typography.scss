@@ -1,76 +1,93 @@
 h1 {
-    color: var(--white);
-    margin: 0;
-    line-height: 1.2;
-  }
+  color: var(--white);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
 
-  h2 {
-    color: var(--white);
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 1.2;
-  }
+h2 {
+  color: var(--white);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
 
-  h3 {
-    color: var(--white);
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 1.2;
-  }
-  
-  a {
-    border-color: var(--black);
-    color: var(--white);
-    text-decoration: underline;
-    background-color: transparent;
-  }
-  
-  p {
-    margin: 0;
-  }
+h3 {
+  color: var(--white);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
 
-  sub, sup {
-    vertical-align: baseline;
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-  }
+a {
+  border-color: var(--black);
+  color: var(--white);
+  text-decoration: underline;
+  background-color: transparent;
+}
 
-  sup {
-    top: -.5em;
-  }
+p {
+  margin: 0;
+}
 
-  .hero-heading {
-    color: var(--white);
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: Saira Variablefont Wdth Wght, sans-serif;
-    font-size: 3.5rem;
-    font-weight: 400;
-    line-height: 1.2;
-  }
-  
-  .text-size-large {
-    font-size: 1.25rem;
-  }
-  
-  .text-size-regular {
-    font-size: 1rem;
-  }
-  
-  .text-weight {
-    color: var(--white);
-    letter-spacing: 6px;
-  }
-  
-  .text-weight-bold {
-    font-weight: 700;
-  }
+sub,
+sup {
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
 
-  .text-size-medium {
-    font-size: 1.125rem;
-  }
+sup {
+  top: -.5em;
+}
+
+.hero-heading {
+  color: var(--white);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Saira Variablefont Wdth Wght, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text-size-large {
+  font-size: 1.25rem;
+}
+
+.text-size-medium {
+  font-size: 1.125rem;
+}
+
+.text-size-regular {
+  font-size: 1rem;
+}
+
+.text-weight {
+  color: var(--white);
+  letter-spacing: 6px;
+}
+
+.text-weight-bold {
+  font-weight: 700;
+}
+
+.text-size-medium {
+  font-size: 1.125rem;
+}
+
+.text-rich-text h2, .text-rich-text h3, .text-rich-text h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-rich-text p {
+  margin-bottom: 1rem;
+}
