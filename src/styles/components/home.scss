@@ -1,0 +1,28 @@
+.section-header {
+  min-height: 60vh;
+}
+
+.header-text {
+  font-size: 7rem;
+  font-weight: 200;
+}
+
+.image-wrapper {
+  background-color: #9699961a;
+  border-radius: 100%;
+  width: 16rem;
+  height: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.home-image {
+  opacity: 1;
+  filter: brightness(110%);
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}

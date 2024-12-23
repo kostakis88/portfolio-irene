@@ -12,7 +12,7 @@ const Header = () => {
                                 <div className="margin-zero margin-bottom-small">
                                     <h1 className="header-text">Hi, I'm Irene 🤍</h1>
                                     <div className="image-wrapper">
-                                        <img src={image} className="image" alt="" />
+                                        <img src={image} className="home-image" alt="" />
                                     </div>
                                 </div>
                                 <div className="container-small">

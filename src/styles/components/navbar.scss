@@ -46,5 +46,9 @@
     &.navbar-current {
       color: var(--dark-grey);
     }
+
+    &:hover {
+      color: var(--dark-grey);
+    }
   }
   
