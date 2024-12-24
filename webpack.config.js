@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/', // Ensure paths work for all routes
   },
   module: {
     rules: [
@@ -22,25 +23,18 @@ module.exports = {
       },
       {
         test: /\.scss$/i,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
+        test: /\.(png|jpe?g|gif|svg|ico)$/i,
+        type: 'asset/resource', // Modern Webpack for static assets
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      favicon: './public/favicon.ico',
     }),
     new ReactRefreshWebpackPlugin(),
   ],
@@ -52,5 +46,6 @@ module.exports = {
       directory: path.join(__dirname, 'dist'),
     },
     port: 3000,
+    historyApiFallback: true, // Fallback for SPA routing
   },
 };
