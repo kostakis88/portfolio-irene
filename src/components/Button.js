@@ -4,7 +4,7 @@ const Button = () => {
     return (
         <div className="margin-zero margin-top-xsmall">
             <div className="button-group is-center">
-                <a href="/works" className="button is-secondary w-button">View all</a>
+                <a href="/works" className="button is-secondary">View all</a>
             </div>
         </div>
     );

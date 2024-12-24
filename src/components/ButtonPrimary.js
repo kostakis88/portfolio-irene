@@ -7,7 +7,7 @@ const ButtonPrimary = ({ href, label, target = '_self', rel = '', className = ''
       href={href}
       target={target}
       rel={rel}
-      className={`button-primary w-button ${className}`}
+      className={`button-primary ${className}`}
     >
       {label}
     </a>

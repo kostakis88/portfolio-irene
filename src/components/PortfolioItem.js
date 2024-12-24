@@ -8,7 +8,6 @@ const PortfolioItem = ({ title, description, imgSrc, imgAlt, href, tag }) => {
                 <div className="margin-zero margin-bottom-xsmall">
                     <div className="portfolio-image-wrapper">
                         <img src={imgSrc} alt={imgAlt} className="portfolio-image" loading="lazy" />
-                        <div className="image-overlay"></div>
                     </div>
                 </div>
                 <div className="margin-zero margin-bottom-xsmall">

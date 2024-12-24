@@ -55,6 +55,11 @@
     &.is-secondary {
         color: var(--white);
         background-color: #0000;
+
+        &:hover {
+            color: var(--dark-grey);
+            border-color: var(--dark-grey);
+        }
     }
 }
 
