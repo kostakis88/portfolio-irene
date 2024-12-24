@@ -65,7 +65,7 @@ const Portfolio = () => {
               <div className="text-align-center">
                 <div className="align-center">
                   <div className="margin-zero margin-bottom-xsmall">
-                    <div className="text-weight">FEATURED WORK</div>
+                    <div className="text-weight section-title">FEATURED WORK</div>
                   </div>
                 </div>
               </div>

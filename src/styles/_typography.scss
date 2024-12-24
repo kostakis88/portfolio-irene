@@ -12,6 +12,7 @@ h2 {
   color: var(--white);
   margin-top: 0;
   margin-bottom: 0;
+  font-family: 'Poetsen One', sans-serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.2;
@@ -37,6 +38,13 @@ p {
   margin: 0;
 }
 
+b,
+strong {
+  font-family: 'Carlito';
+  font-weight: bold;
+  font-style: normal;
+}
+
 sub,
 sup {
   vertical-align: baseline;
@@ -53,7 +61,6 @@ sup {
   color: var(--white);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Saira Variablefont Wdth Wght, sans-serif;
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 1.2;
@@ -84,6 +91,10 @@ sup {
 .text-weight {
   color: var(--white);
   letter-spacing: 6px;
+}
+
+.section-title {
+  font-family: 'Poetsen One', sans-serif;
 }
 
 .text-weight-bold {
