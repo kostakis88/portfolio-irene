@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "homepage": "https://kostakis88.github.io/portfolio-irene",
   "dependencies": {
     "file-loader": "^6.2.0",
     "prop-types": "^15.8.1",

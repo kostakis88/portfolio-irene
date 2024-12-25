@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const WorkItem = ({ id, title, description, tags }) => {
   return (
-    <Link to={`/work/${id}`}>
+    <Link to={`/work/${id}`} className="work-item-link">
       <div className="work-item">
         <div className="work-heading">
           <div className="text-size-medium text-weight-bold">{title}</div>
