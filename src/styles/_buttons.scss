@@ -17,6 +17,11 @@
     border-radius: 0;
     text-decoration: none;
     display: inline-block;
+
+    &:hover {
+        color: #fff;
+        background-color: #32343a;
+    }
 }
 
 .button {

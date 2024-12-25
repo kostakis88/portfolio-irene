@@ -34,7 +34,7 @@ const FeaturesList = () => {
     ];
 
     return (
-        <div className="features-list">
+        <section className="features-list">
             <div className="container-2">
                 <div className="features-wrapper-two">
                     <div className="features-left">
@@ -57,7 +57,7 @@ const FeaturesList = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
