@@ -78,7 +78,7 @@ const Portfolio = () => {
                   ))}
                 </div>
               </div>
-              <Button />
+              <Button label="View all"/>
             </div>
           </div>
         </div>

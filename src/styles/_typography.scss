@@ -8,6 +8,18 @@ h1 {
   line-height: 1.2;
 }
 
+@media (max-width: 991px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
 h2 {
   color: var(--white);
   margin-top: 0;
@@ -101,10 +113,6 @@ sup {
   font-weight: 700;
 }
 
-.text-size-medium {
-  font-size: 1.125rem;
-}
-
 .text-rich-text h2, .text-rich-text h3, .text-rich-text h4 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
@@ -121,5 +129,9 @@ sup {
 @media (max-width: 768px) {
   .heading-style-h5 {
     font-size: 1.25rem;
+  }
+
+  .text-size-medium {
+    font-size: 1rem;
   }
 }

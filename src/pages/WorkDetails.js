@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import PortfolioHeader from '../components/PortfolioHeader';
 import ContentSection from '../components/ContentSection';
-import ButtonPrimary from '../components/ButtonPrimary';
+import Button from '../components/Button';
 import image from '../images/image.png';
 
 const WorkDetails = () => {
@@ -119,7 +119,7 @@ const WorkDetails = () => {
       </section>
       <div className="margin-bottom margin-large">
         <div className="button-group is-center">
-          <ButtonPrimary href="/works" label="View More Work" className="is-secondary" />
+          <Button label="View More Work" />
         </div>
       </div>
     </div>
