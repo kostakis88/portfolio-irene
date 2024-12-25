@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -12,12 +12,12 @@ const App = () => {
     <Router>
       <main className="main-wrapper">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/works" element={<Work />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/work/:id" element={<WorkDetails />} />
-        </Routes>
+        <Switch>
+          <Route path="/" component={<Home />} />
+          <Route path="/works" component={<Work />} />
+          <Route path="/about" component={<About />} />
+          <Route path="/work/:id" component={<WorkDetails />} />
+        </Switch>
         <Footer />
       </main>
     </Router>
