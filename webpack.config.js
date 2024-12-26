@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -24,7 +26,7 @@ module.exports = {
       },
       {
         test: /\.scss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        use: [MiniCssExtractPlugin.loader,, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(png|jpe?g|gif|svg|ico)$/i,
@@ -42,6 +44,10 @@ module.exports = {
         { from: path.resolve(__dirname, 'public/_redirects'), to: '' }, // Copy _redirects to the root of dist
       ],
     }),
+    new MiniCssExtractPlugin({
+      filename: '[name].css', // Output CSS file name
+      chunkFilename: '[id].css',
+    }),
     new ReactRefreshWebpackPlugin(),
   ],
   resolve: {
@@ -53,5 +59,11 @@ module.exports = {
     },
     port: 3000,
     historyApiFallback: true, // Fallback for SPA routing
+  },
+  optimization: {
+    minimizer: [
+      '...',                // Extend default minimizers (e.g., Terser for JS)
+      new CssMinimizerPlugin(),
+    ],
   },
 };
