@@ -1,0 +1,95 @@
+{
+  "workDetails": [
+    {
+      "id": 1,
+      "title": "Crafting an Impactful Settings Menu",
+      "subtitle": "Redesign concept for the episode selection screen in Life is Strange.",
+      "tags": [
+        {
+          "href": "/services/personal-project",
+          "label": "Personal Project"
+        }
+      ],
+      "image": {
+        "src": "images/image.png",
+        "alt": "Life is Strange Episode Selection",
+        "overlayStyle": {
+          "transform": "translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg)",
+          "transformStyle": "preserve-3d"
+        }
+      },
+      "content": [
+        {
+          "type": "heading",
+          "content": "Overview"
+        },
+        {
+          "type": "text",
+          "content": "Life is Strange Remastered stars Max Caulfield, a photographer who discovers she can rewind time. I took on the challenge of redesigning the episode selection menu because I was determined to design a menu that connects the player more closely with not only the characters, but evoke more emotions through the UI before they are taken into the narrative adventure."
+        },
+        {
+          "type": "heading",
+          "content": "Final Product"
+        },
+        {
+          "type": "video",
+          "src": "#",
+          "title": "Life is Strange Remastered: Episode Selection Redesign"
+        },
+        {
+          "type": "heading",
+          "content": "Analyzing In-Game Design"
+        },
+        {
+          "type": "text",
+          "content": "The original design of this screen showcases episodes in a horizontal tile, by enlarging the photo showcased on the tile to be part of the main background. A scribbled up arrow is presented towards the right of the last tile to indicate there are more tiles to view."
+        },
+        {
+          "type": "image",
+          "src": "images/image.png",
+          "caption": "Screenshot of episode selection redesign"
+        },
+        {
+          "type": "heading",
+          "content": "Design Process"
+        },
+        {
+          "type": "text",
+          "content": "While concepting out a redesign of this screen, I didn’t want to create an entirely new theme. Instead, I wanted to reconstruct the way the player cycles through each episode, by introducing a special touch to it..."
+        },
+        {
+          "type": "text",
+          "content": "Goals:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Showcase only one episode tile at a time to create curiosity.",
+            "Encompass each episode to reflect a polaroid of episode preview."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Episode Tile Stylization"
+        },
+        {
+          "type": "text",
+          "content": "For the episode cards, I made sure to include the following elements to give it more character:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Film grain",
+            "Paper texture",
+            "Lens Flare",
+            "Sharpie marking for episode and title"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "images/image.png"
+        }
+      ]
+    }
+  ]
+}

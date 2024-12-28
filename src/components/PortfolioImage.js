@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PortfolioImage = ({ src, srcSet, alt, overlayStyle }) => {
+const PortfolioImage = ({ src, srcSet, alt }) => {
   return (
     <div className="portfolio-header-image-wrapper">
       <img
@@ -10,7 +10,6 @@ const PortfolioImage = ({ src, srcSet, alt, overlayStyle }) => {
         className="portfolio-header-image"
         loading="eager"
       />
-      <div style={overlayStyle} className="image-overlay"></div>
     </div>
   );
 };

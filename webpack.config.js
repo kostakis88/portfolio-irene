@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/', // Ensure paths work for all routes
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -26,11 +26,18 @@ module.exports = {
       },
       {
         test: /\.scss$/i,
-        use: [MiniCssExtractPlugin.loader,, 'css-loader', 'sass-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(png|jpe?g|gif|svg|ico)$/i,
-        type: 'asset/resource', // Modern Webpack for static assets
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext][query]' // Output fonts in 'fonts/' directory
+        }
       },
     ],
   },
@@ -41,11 +48,11 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: path.resolve(__dirname, 'public/_redirects'), to: '' }, // Copy _redirects to the root of dist
+        { from: path.resolve(__dirname, 'public'), to: '', filter: (resourcePath) => !resourcePath.endsWith('index.html') }, // Copy all except index.html
       ],
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css', // Output CSS file name
+      filename: '[name].css',
       chunkFilename: '[id].css',
     }),
     new ReactRefreshWebpackPlugin(),
@@ -54,15 +61,20 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
+    static: [
+      {
+        directory: path.join(__dirname, 'dist'),
+      },
+      {
+        directory: path.join(__dirname, 'public'),
+      },
+    ],
     port: 3000,
-    historyApiFallback: true, // Fallback for SPA routing
+    historyApiFallback: true,
   },
   optimization: {
     minimizer: [
-      '...',                // Extend default minimizers (e.g., Terser for JS)
+      '...', // Extend default minimizers
       new CssMinimizerPlugin(),
     ],
   },
