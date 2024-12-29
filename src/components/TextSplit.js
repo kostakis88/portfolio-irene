@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonPrimary from './ButtonPrimary';
+import ResumeButton from './ResumeButton';
 
 const TextSplit = ({ heading, content, button }) => {
   return (
@@ -8,7 +8,7 @@ const TextSplit = ({ heading, content, button }) => {
         <sup>{heading}</sup>
       </h1>
       <p className="hero-margin">{content}</p>
-      {button && <ButtonPrimary {...button} />}
+      {button && <ResumeButton {...button} />}
     </div>
   );
 };

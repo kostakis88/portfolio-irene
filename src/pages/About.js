@@ -38,10 +38,7 @@ const About = () => {
         </>
       ),
       button: {
-        href: '#',
         label: 'RESUME',
-        target: '_blank',
-        rel: 'noopener noreferrer',
       },
     },
     imageProps: {
