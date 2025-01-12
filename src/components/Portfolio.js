@@ -1,58 +1,45 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
 import Button from './Button';
-import image from '../images/image.png'
+import battle from '../images/battle.png';
+import store from '../images/store.png';
+import seasonal from '../images/seasonal.png';
+import promo from '../images/promo.png';
 
 const Portfolio = () => {
 
   const portfolioItems = [
     {
       id: 1,
-      title: 'Fortnite Battle Royale',
-      description: 'Creating engaging user experiences for Fortnite Battle Royale at Epic Games',
-      imgSrc: image,
-      imgAlt: 'Fortnite Image',
+      title: 'Firestone Idle RPG',
+      description: 'Designing an Intuitive Fantasy Battle Screen for Idle RPG Adventures',
+      imgSrc: battle,
+      imgAlt: 'Battle Image',
       tag: 'Full Time Role',
     },
     {
       id: 2,
-      title: 'Crafting an Impactful Settings Menu',
-      description: 'Analyzing best practices',
-      imgSrc: image,
-      imgAlt: 'Settings Menu',
-      tag: 'Personal Project',
+      title: 'Firestone Idle RPG',
+      description: 'Creating Engaging Interfaces to Boost Purchases and Drive Monetization',
+      imgSrc: store,
+      imgAlt: 'Store Menu Image',
+      tag: 'Full Time Role',
     },
     {
       id: 3,
-      title: 'Designing with Accessibility - The Walking Dead Final Season',
-      description: 'Analyzing design approaches presented throughout The Walking Dead Final Season',
-      imgSrc: image,
-      imgAlt: 'Walking Dead Thumbnail',
-      tag: 'Personal Project',
+      title: 'Firestone Idle RPG',
+      description: 'Festive Flair: Captivating Banner Designs for Seasonal Promotions',
+      imgSrc: seasonal,
+      imgAlt: 'Seasonal Events Image',
+      tag: 'Full Time Role',
     },
     {
       id: 4,
-      title: "Marvel's Spider-Man 2",
-      description: "UI/UX Art Intern on Marvel's Spider-Man 2 at Insomniac Games",
-      imgSrc: image,
-      imgAlt: 'Spider-Man 2 Thumbnail',
-      tag: 'Internship',
-    },
-    {
-      id: 5,
-      title: 'Designing a Mode Selection Menu for a Spider-Verse Game',
-      description: 'Menu design concept for a spider-verse game.',
-      imgSrc: image,
-      imgAlt: 'Spider-Verse Thumbnail',
-      tag: 'Personal Project',
-    },
-    {
-      id: 6,
-      title: 'Creating a more personal Life is Strange episode selection screen',
-      description: 'Redesign concept for episode selection screen in Life is Strange.',
-      imgSrc: image,
-      imgAlt: 'Life is Strange Thumbnail',
-      tag: 'Personal Project',
+      title: 'Firestone Idle RPG',
+      description: "Crafting Eye-Catching App Store Visuals for Game Promotions",
+      imgSrc: promo,
+      imgAlt: 'Promo Image',
+      tag: 'Full Time Role',
     },
   ];
 
