@@ -1,7 +1,8 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import FeatureList from '../components/FeatureList';
-import image from '../images/image.png'
+import image from '../images/image.png';
+import career from '../images/career.png';
 
 const About = () => {
   const heroSectionOne = {
@@ -57,22 +58,18 @@ const About = () => {
       heading: 'Why I chose to dedicate my career in Game UX',
       content: (
         <>
-          I'll cut right to the chase... OF COURSE I LOVE VIDEO GAMES! 😄
-          <br />
-          <br />
-          But there's a unique reason why. It's an important medium that has brought people worldwide together, and the
-          user experience is the heartbeat of a player's journey. Over the years of playing games, I have recognized the
-          importance of onboarding, customization settings, accessible UI design... ultimately empowering the player to
-          take control of their experience. Players can ultimately call this experience an important and positive
-          element in their life. <strong>That is my goal</strong>. I value how games offer this and I am passionate
-          about bringing that to life in the games I work on. 🤍
+          My passion for UX design stems from a deep love for understanding human psychology and empathizing with users' needs. 
+          I thrive on solving complex problems through creativity, combining my artistic sensibility with a methodical approach to design. 
+          For me, UX is where art meets science—a space where I can craft intuitive, meaningful experiences that improve lives. 
+          Every project is an opportunity to merge my curiosity about people with my drive to create solutions that are not only functional but also delightful. 
+          This blend of empathy, creativity, and problem-solving is why I chose to dedicate my career to UX design.
         </>
       ),
     },
     imageProps: {
-      src: image,
+      src: career,
       srcSet:
-        image,
+        career,
       sizes: '(max-width: 767px) 94vw, (max-width: 991px) 92vw, 43vw',
       alt: '',
       className: 'shadow-two-2',
