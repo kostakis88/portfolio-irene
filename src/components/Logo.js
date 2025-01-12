@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../images/linkedin.png'
+import logo from '../images/logo.png'
 
 const Logo = () => {
     return (
@@ -9,9 +9,8 @@ const Logo = () => {
             className="navbar-logo"
         >
             <img
-                src={image}
+                src={logo}
                 loading="lazy"
-                width="145"
                 alt="Logo"
             />
         </a>
