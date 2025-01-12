@@ -17,20 +17,11 @@ const Header = () => {
                                 </div>
                                 <div className="container-small">
                                     <p className="text-size-large">
-                                        I'm a UX Designer working at{' '}
-                                        <a href="#" target="_blank" rel="noreferrer">
-                                            Holyday Studios
-                                        </a>
-                                        . My journey into making games is fueled by a relentless
-                                        pursuit of <strong>innovation</strong>, pushing the
-                                        boundaries of gaming to create <strong>solutions</strong>{' '}
-                                        that resonate with players worldwide.
-                                        <span>
-                                            Every project I undertake is a canvas where{' '}
-                                            <strong>aesthetics</strong> and <strong>usability</strong>{' '}
-                                            converge, resulting in designs that not only catch the eye
-                                            but also enrich the player's lives.
-                                        </span>
+                                        I specialize in crafting immersive <strong>UI/UX designs</strong>{' '}
+                                        that enhance gameplay, <strong>visual and graphic design</strong>{' '}
+                                        that aligns with game aesthetics, and impactful <strong>promotional marketing materials</strong>{' '}
+                                        to amplify a game's presence. Combining creativity with functionality, 
+                                        I create seamless experiences that captivate players and bring games to life.
                                     </p>
                                 </div>
                             </div>
