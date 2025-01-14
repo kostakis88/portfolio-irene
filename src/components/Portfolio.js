@@ -11,7 +11,7 @@ const Portfolio = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: 'Firestone Idle RPG',
+      title: 'Crafting Immersive UI/UX for the Main Battle Screen - Firestone Idle RPG',
       description: 'Designing an Intuitive Fantasy Battle Screen for Idle RPG Adventures',
       imgSrc: battle,
       imgAlt: 'Battle Image',
@@ -19,7 +19,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'Firestone Idle RPG',
+      title: 'Gem Store Menu - Firestone Idle RPG',
       description: 'Creating Engaging Interfaces to Boost Purchases and Drive Monetization',
       imgSrc: store,
       imgAlt: 'Store Menu Image',
@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Firestone Idle RPG',
+      title: 'Promotional Design for Google Play – Firestone Idle RPG',
       description: 'Festive Flair: Captivating Banner Designs for Seasonal Promotions',
       imgSrc: seasonal,
       imgAlt: 'Seasonal Events Image',
@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Firestone Idle RPG',
+      title: 'Designing Seasonal Event Promotional Banners - Firestone Idle RPG',
       description: "Crafting Eye-Catching App Store Visuals for Game Promotions",
       imgSrc: promo,
       imgAlt: 'Promo Image',
