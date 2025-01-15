@@ -2,21 +2,17 @@
   "workDetails": [
     {
       "id": 1,
-      "title": "Crafting an Impactful Settings Menu",
-      "subtitle": "Redesign concept for the episode selection screen in Life is Strange.",
+      "title": "Crafting Immersive UI/UX for the Main Battle Screen - Firestone Idle RPG",
+      "subtitle": "Designing an Intuitive Fantasy Battle Screen for Idle RPG Adventures",
       "tags": [
         {
-          "href": "/services/personal-project",
-          "label": "Personal Project"
+          "href": "/services/full-time-role",
+          "label": "Full Time Role"
         }
       ],
       "image": {
-        "src": "images/image.png",
-        "alt": "Life is Strange Episode Selection",
-        "overlayStyle": {
-          "transform": "translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg)",
-          "transformStyle": "preserve-3d"
-        }
+        "src": "images/battle.png",
+        "alt": "Battle Image"
       },
       "content": [
         {
@@ -90,6 +86,54 @@
           "src": "images/image.png"
         }
       ]
+    },
+    {
+      "id": 2,
+      "title": "Gem Store Menu - Firestone Idle RPG",
+      "subtitle": "Creating Engaging Interfaces to Boost Purchases and Drive Monetization",
+      "tags": [
+        {
+          "href": "/services/full-time-role",
+          "label": "Full Time Role"
+        }
+      ],
+      "image": {
+        "src": "images/store.png",
+        "alt": "Store Menu Image"
+      },
+      "content": []
+    },
+    {
+      "id": 3,
+      "title": "Promotional Design for Google Play – Firestone Idle RPG",
+      "subtitle": "Festive Flair: Captivating Banner Designs for Seasonal Promotions",
+      "tags": [
+        {
+          "href": "/services/full-time-role",
+          "label": "Full Time Role"
+        }
+      ],
+      "image": {
+        "src": "images/seasonal.png",
+        "alt": "Seasonal Events Image"
+      },
+      "content": []
+    },
+    {
+      "id": 4,
+      "title": "Designing Seasonal Event Promotional Banners - Firestone Idle RPG",
+      "subtitle": "Designing Seasonal Event Promotional Banners - Firestone Idle RPG",
+      "tags": [
+        {
+          "href": "/services/full-time-role",
+          "label": "Full Time Role"
+        }
+      ],
+      "image": {
+        "src": "images/promo.png",
+        "alt": "Promo Image"
+      },
+      "content": []
     }
   ]
 }
