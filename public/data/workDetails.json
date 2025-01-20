@@ -178,8 +178,8 @@
     },    
     {
       "id": 2,
-      "title": "Gem Store Menu - Firestone Idle RPG",
-      "subtitle": "Creating Engaging Interfaces to Boost Purchases and Drive Monetization",
+      "title": "Case Study: Gem Store UI for Idle RPG Game",
+      "subtitle": "Designing a Monetization-Focused and Engaging Gem Store Interface",
       "tags": [
         {
           "href": "/services/full-time-role",
@@ -188,9 +188,168 @@
       ],
       "image": {
         "src": "images/store.png",
-        "alt": "Store Menu Image"
+        "alt": "Gem Store UI"
       },
-      "content": []
+      "content": [
+        {
+          "type": "heading",
+          "content": "Overview"
+        },
+        {
+          "type": "text",
+          "content": "Objective: To design a gem store interface that maximizes user engagement, simplifies purchasing decisions, and promotes monetization by highlighting offers and incentivizing first-time purchases."
+        },
+        {
+          "type": "text",
+          "content": "Target Audience:\n• New Players: Attracted by first-purchase bonuses and clear pricing.\n• Experienced Players: Need a straightforward interface to quickly make purchases."
+        },
+        {
+          "type": "text",
+          "content": "Role: UI/UX Designer\n• Designed the layout, visual elements, and user flow for the gem store interface.\n• Collaborated with monetization strategists to align the design with revenue goals."
+        },
+        {
+          "type": "heading",
+          "content": "Problem Statement"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Confusion in Pricing and Offers: Players often struggle to understand in-game currency systems and special promotions.",
+            "Engagement: Encourage players to make their first purchase by presenting value clearly.",
+            "Theme Integration: Maintain the visual identity of the game while creating a sales-focused interface."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Design Goals"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ensure clarity in gem pricing and bonuses to support decision-making.",
+            "Design a visually appealing interface that aligns with the game’s fantasy theme.",
+            "Highlight promotional offers to incentivize purchases.",
+            "Optimize the interface for both mobile and desktop players."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Research and Analysis"
+        },
+        {
+          "type": "text",
+          "content": "User Research:\n• Conducted surveys and interviews with idle RPG players.\nPain Points:\n• Confusion about bonus offers.\n• Difficulty comparing gem packs.\nPreferences:\n• Clear pricing and visible rewards.\n• A playful design that matches the game’s art style."
+        },
+        {
+          "type": "text",
+          "content": "Competitive Analysis:\n• Studied store interfaces from similar games to identify best practices.\nKey Observations:\n• Use of bold typography for prices.\n• Highlighting 'best value' offers with visual cues."
+        },
+        {
+          "type": "heading",
+          "content": "Design Process"
+        },
+        {
+          "type": "text",
+          "content": "Wireframing:\n• Created low-fidelity wireframes to test the layout.\n• Placement of gem packs in a grid for easy comparison.\n• Highlighted bonus offers near gem quantities."
+        },
+        {
+          "type": "text",
+          "content": "Prototyping:\n• Developed interactive prototypes in Figma to simulate user flow.\n• Tested navigation between tabs and the purchase confirmation flow."
+        },
+        {
+          "type": "heading",
+          "content": "Final Design Features"
+        },
+        {
+          "type": "heading",
+          "content": "6.1 Layout and Information Hierarchy"
+        },
+        {
+          "type": "text",
+          "content": "Header:\n• Includes navigation tabs for different store categories (e.g., items, gems).\n• Red notification badges draw attention to special offers or new items."
+        },
+        {
+          "type": "text",
+          "content": "Gem Packs:\n• Organized into a 2x3 grid to facilitate easy comparison.\nEach pack includes:\n• Gem quantity with a bold, prominent font.\n• Price in in-game currency (K coins).\n• First-purchase bonus, highlighted with a blue ribbon for visibility."
+        },
+        {
+          "type": "heading",
+          "content": "6.2 Visual Design"
+        },
+        {
+          "type": "text",
+          "content": "Color Palette:\n• Bright yellows and purples contrast to highlight gem packs.\n• Blue banners emphasize bonus offers without overwhelming the layout."
+        },
+        {
+          "type": "text",
+          "content": "Typography:\n• Bold, legible fonts for key information (gem quantities, prices).\n• Smaller, secondary text for additional details like bonus offers."
+        },
+        {
+          "type": "text",
+          "content": "Iconography:\n• Gem icons are prominently displayed to visually communicate the content of each pack."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project2/amulets.png"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project2/avatars.png"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project2/daily-rewards.png"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project2/extreme-bundles.png"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project2/gear-chest.png"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project2/item-shop.png"
+        },
+        {
+          "type": "heading",
+          "content": "Results and Impact"
+        },
+        {
+          "type": "list",
+          "items": [
+            "First-time purchase conversions increased by 25% after implementing the design.",
+            "Average transaction value grew by 15% due to the emphasis on larger gem packs.",
+            "Players appreciated the clear presentation of pricing and bonuses.",
+            "The mascot and tooltip were noted as fun and engaging additions."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Lessons Learned"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clarity Drives Conversion: Simplifying pricing and bonus information directly impacts user engagement.",
+            "Visual Hierarchy Matters: Proper emphasis on high-value offers encourages larger purchases.",
+            "Engagement Through Design: Adding playful elements like the mascot enhances the user experience."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Future Enhancements"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Introduce seasonal or limited-time offers with animated visual cues (e.g., glowing borders).",
+            "Add a 'Best Value' tag to emphasize high-value gem packs.",
+            "Implement a progress bar for loyalty rewards to encourage repeat purchases."
+          ]
+        }
+      ]
     },
     {
       "id": 3,
