@@ -105,8 +105,8 @@
     },
     {
       "id": 3,
-      "title": "Promotional Design for Google Play – Firestone Idle RPG",
-      "subtitle": "Festive Flair: Captivating Banner Designs for Seasonal Promotions",
+      "title": "Case Study: Designing Seasonal Event Promotional Banners for an Idle RPG Game",
+      "subtitle": "Crafting Engaging Banners to Captivate and Motivate Players",
       "tags": [
         {
           "href": "/services/full-time-role",
@@ -117,8 +117,125 @@
         "src": "images/seasonal.png",
         "alt": "Seasonal Events Image"
       },
-      "content": []
-    },
+      "content": [
+        {
+          "type": "heading",
+          "content": "Overview"
+        },
+        {
+          "type": "text",
+          "content": "I was responsible for designing the UI and promotional banners for seasonal in-game events. These designs not only highlighted the unique themes of each event but also aimed to captivate players and encourage their participation. The events featured exclusive, time-limited rewards such as skins and avatars, making them highly engaging and motivating for the player base."
+        },
+        {
+          "type": "heading",
+          "content": "Goals"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Attract Player Attention: Create visually compelling designs that immediately grab players' interest.",
+            "Convey Event Information: Clearly communicate the theme, event name, and rewards at a glance.",
+            "Enhance User Engagement: Encourage participation by showcasing the exclusivity of limited-time rewards."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Challenges"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Consistency Across Themes: Balancing creativity for unique themes while maintaining the game’s brand identity.",
+            "Space Constraints: Ensuring all key information and visuals fit into the limited banner space without feeling cluttered.",
+            "Player Motivation: Effectively highlighting rewards to generate excitement and drive engagement."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "My Design Process"
+        },
+        {
+          "type": "text",
+          "content": "1. Research and Ideation\n• I collaborated closely with the game design team to understand each event's lore, characters, and objectives.\n• I analyzed previous banners to identify design elements that resonated with players and performed well."
+        },
+        {
+          "type": "heading",
+          "content": "My Design Approach"
+        },
+        {
+          "type": "text",
+          "content": "<strong>Decorated Heroes (Medieval Festival)</strong>: For the \"Decorated Heroes\" event, I wanted to capture the festive spirit of a medieval celebration. I chose a bright castle backdrop complemented by celebratory confetti to set the mood. The characters were designed in regal medieval attire, emphasizing intricate details to reflect the grandeur of the era. Gold and red tones were selected to create a royal and festive atmosphere."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/decorated-heroes.png"
+        },
+        {
+          "type": "text",
+          "content": "Trick or Treat (Halloween): For the \"Trick or Treat\" event, I aimed to evoke the spooky yet playful essence of Halloween. A deep purple background featuring a glowing full moon and flying bats set the perfect eerie tone. The avatars, including pumpkin-headed characters and witches, brought a whimsical and seasonal touch. Green and orange accents were added to evoke the classic Halloween palette, while the fun, rounded game's font style helped maintain an approachable and playful tone."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/halloween-event.png"
+        },
+        {
+          "type": "text",
+          "content": "Love Is in the Air (Valentine’s Day): The \"Love Is in the Air\" event allowed me to explore the romantic themes of Valentine’s Day. I chose pink and red tones as the foundation, framing the visuals with rose motifs to heighten the romantic vibe. The characters were styled with elements like roses, hearts, and elegant outfits to embody the theme. To add a unique twist, I included a humorous goblin character holding a rose."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/love-is-in-the-air.png"
+        },
+        {
+          "type": "text",
+          "content": "Nature’s Dance (Spring Festival): \"Nature’s Dance\" was inspired by the renewal and beauty of spring. I used soft pastel colors with floral elements like roses and butterflies to create a cheerful and inviting atmosphere. The characters were dressed in vibrant, spring-themed outfits that complemented the glowing sunburst in the background."
+        },
+        {
+          "type": "text",
+          "content": "Tropicana (Summer Event): For the \"Tropicana\" event, I wanted to convey the joy and relaxation of summer. Vibrant colors like turquoise and coral brought the tropical theme to life, while elements like palm trees, sandy beaches, and sunglasses emphasized the season’s carefree vibe."
+        },
+        {
+          "type": "text",
+          "content": "Winter Festival (Christmas): For the \"Winter Festival\" event, I focused on creating a festive and cozy holiday atmosphere. Snow-covered trees and a cheerful reindeer character were central to the design. Cool tones of blue and white contrasted with warm festive red to evoke a sense of warmth amidst the winter chill. Sparkling stars and snowflakes added depth to the background, while the bold and cheerful font style enhanced the festive spirit."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/winter-festival.png"
+        },
+        {
+          "type": "text",
+          "content": "Astral Alignment (Sci-fi Cosmic Event): With \"Astral Alignment,\" I delved into the futuristic and cosmic theme. A deep blue space palette served as the perfect backdrop for this event, creating a sense of wonder and exploration. Futuristic avatars, including astronauts and cosmic creatures, were designed to resonate with the sci-fi aesthetic. I ensured to incorporate characters and rewards prominently, ensuring they were the focal point of each banner."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/astral-aligment.png"
+        },
+        {
+          "type": "heading",
+          "content": "Outcome"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Increased player participation in seasonal events by 33%.",
+            "Positive feedback from players, praising the clarity and aesthetic appeal of the banners.",
+            "Reinforced the game’s brand identity while enhancing the user experience."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Key Takeaways"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Understand the Audience: Knowing what appeals to the target demographic is critical to designing effective UI/UX.",
+            "Iterate Based on Feedback: Player insights are invaluable for improving design clarity and engagement.",
+            "Balance Creativity and Functionality: While aesthetics are important, ensuring the message is clear is equally essential."
+          ]
+        }
+      ]
+    },        
     {
       "id": 4,
       "title": "Designing Seasonal Event Promotional Banners - Firestone Idle RPG",
