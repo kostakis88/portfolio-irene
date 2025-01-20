@@ -2,8 +2,8 @@
   "workDetails": [
     {
       "id": 1,
-      "title": "Crafting Immersive UI/UX for the Main Battle Screen - Firestone Idle RPG",
-      "subtitle": "Designing an Intuitive Fantasy Battle Screen for Idle RPG Adventures",
+      "title": "Case Study: Main Battle Screen for Idle RPG Game",
+      "subtitle": "Designing a Visually Engaging and Intuitive Main Battle Screen",
       "tags": [
         {
           "href": "/services/full-time-role",
@@ -12,7 +12,7 @@
       ],
       "image": {
         "src": "images/battle.png",
-        "alt": "Battle Image"
+        "alt": "Main Battle Screen Image"
       },
       "content": [
         {
@@ -21,29 +21,52 @@
         },
         {
           "type": "text",
-          "content": "Life is Strange Remastered stars Max Caulfield, a photographer who discovers she can rewind time. I took on the challenge of redesigning the episode selection menu because I was determined to design a menu that connects the player more closely with not only the characters, but evoke more emotions through the UI before they are taken into the narrative adventure."
-        },
-        {
-          "type": "heading",
-          "content": "Final Product"
-        },
-        {
-          "type": "video",
-          "src": "#",
-          "title": "Life is Strange Remastered: Episode Selection Redesign"
-        },
-        {
-          "type": "heading",
-          "content": "Analyzing In-Game Design"
+          "content": "Objective: To design a visually engaging and intuitive main battle screen for an idle RPG game that enhances player interaction, ensures accessibility for key gameplay features, and maintains a consistent theme aligned with the fantasy genre."
         },
         {
           "type": "text",
-          "content": "The original design of this screen showcases episodes in a horizontal tile, by enlarging the photo showcased on the tile to be part of the main background. A scribbled up arrow is presented towards the right of the last tile to indicate there are more tiles to view."
+          "content": "Target Audience:\n• Casual Players: Focused on ease of use and intuitive controls for new users.\n• Hardcore Players: Expect detailed stats, efficient navigation, and access to advanced mechanics."
         },
         {
-          "type": "image",
-          "src": "images/image.png",
-          "caption": "Screenshot of episode selection redesign"
+          "type": "text",
+          "content": "Role: UI/UX Designer\n• Collaborated with game designers, developers, and artists to conceptualize, prototype, and implement the final UI design."
+        },
+        {
+          "type": "heading",
+          "content": "Problem Statement"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cluttered Information: Idle RPG games often overwhelm players with resource data, character stats, and menu options.",
+            "Navigation Complexity: Players need quick access to various features like upgrades, quests, and party management without disrupting gameplay.",
+            "Theme Integration: The interface needed to feel immersive and aligned with the game’s fantasy world."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Design Goals"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Create a clear information hierarchy to prioritize combat-critical elements.",
+            "Design touch-friendly controls for mobile platforms while retaining usability for desktop players.",
+            "Ensure visual cohesion between the UI and the game’s fantasy aesthetic.",
+            "Provide real-time feedback for player actions and battle progress."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Research and Analysis"
+        },
+        {
+          "type": "text",
+          "content": "User Research:\n• Conducted surveys and interviews with players of similar idle RPG games to understand their pain points and preferences.\n• Key findings:\n  • Players value clear visual indicators during battles.\n  • Simplified navigation and quick access to upgrades enhance engagement.\n  • Animations and feedback improve satisfaction."
+        },
+        {
+          "type": "text",
+          "content": "Competitive Analysis:\n• Analyzed successful idle RPG games for UI/UX design patterns.\n• Observed the balance between game aesthetics and practicality in interfaces."
         },
         {
           "type": "heading",
@@ -51,42 +74,108 @@
         },
         {
           "type": "text",
-          "content": "While concepting out a redesign of this screen, I didn’t want to create an entirely new theme. Instead, I wanted to reconstruct the way the player cycles through each episode, by introducing a special touch to it..."
+          "content": "Wireframing:\n• Sketched layouts to test the placement of key elements:\n  • Top Bar: Combat-critical stats (HP, player/enemy level).\n  • Bottom Bar: Actionable elements like skills and abilities.\n  • Side Panels: Secondary options (inventory, upgrades, shop)."
         },
         {
-          "type": "text",
-          "content": "Goals:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Showcase only one episode tile at a time to create curiosity.",
-            "Encompass each episode to reflect a polaroid of episode preview."
-          ]
+          "type": "image",
+          "src": "images/projects/project1/large-battle-wireframe.png"
         },
         {
           "type": "heading",
-          "content": "Episode Tile Stylization"
+          "content": "Final Design Features"
+        },
+        {
+          "type": "heading",
+          "content": "6.1 Information Hierarchy"
         },
         {
           "type": "text",
-          "content": "For the episode cards, I made sure to include the following elements to give it more character:"
+          "content": "Top Bar:\n• Displays HP bars (player and enemy) prominently for quick monitoring.\n• Levels and progress timers are visible without distracting from the battle."
+        },
+        {
+          "type": "text",
+          "content": "Center Screen:\n• Focuses on visualizing the battle with character models and animations."
+        },
+        {
+          "type": "text",
+          "content": "Quest Panel (Bottom Left):\n• Highlights active quests with progress bars and actionable instructions."
+        },
+        {
+          "type": "text",
+          "content": "Action Panel (Bottom Center):\n• Skill buttons are visually distinct with cooldown timers and ready-state feedback."
+        },
+        {
+          "type": "heading",
+          "content": "6.2 Visual Design"
+        },
+        {
+          "type": "text",
+          "content": "Color Palette:\n• Used vibrant colors (green for upgrades, red for health) for clarity and engagement."
+        },
+        {
+          "type": "text",
+          "content": "Typography:\n• Clear, readable fonts with proper scaling for mobile and desktop platforms."
+        },
+        {
+          "type": "heading",
+          "content": "6.3 Accessibility and Interaction"
+        },
+        {
+          "type": "text",
+          "content": "Touch-Friendly Design:\n• Large, easily tappable buttons for mobile users."
+        },
+        {
+          "type": "text",
+          "content": "Dynamic Feedback:\n• Coin pickups, glowing buttons, and HP bar animations add a layer of interactivity."
+        },
+        {
+          "type": "text",
+          "content": "Platform Scalability:\n• Optimized layouts for seamless transitions between mobile and desktop gameplay."
+        },
+        {
+          "type": "heading",
+          "content": "Challenges and Solutions"
         },
         {
           "type": "list",
           "items": [
-            "Film grain",
-            "Paper texture",
-            "Lens Flare",
-            "Sharpie marking for episode and title"
+            "Challenge 1: Managing screen clutter while retaining functionality.\nSolution: Organized elements into panels and prioritized key features (e.g., quests, upgrades) based on player interaction frequency.",
+            "Challenge 2: Ensuring usability for new and experienced players.\nSolution: Created tooltips and added visual guides (e.g., quest progress indicators) for first-time users while maintaining quick access for experienced players.",
+            "Challenge 3: Aligning UI with the fantasy theme.\nSolution: Designed custom icons and backgrounds inspired by medieval and fantasy motifs."
           ]
         },
         {
           "type": "image",
-          "src": "images/image.png"
+          "src": "images/projects/project1/before-main-battle.png"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project1/after-main-battle.png"
+        },
+        {
+          "type": "heading",
+          "content": "Results and Impact"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Qualitative Feedback:\n• Players appreciated the clear hierarchy and immersive visuals.",
+            "Testers reported a smoother navigation experience compared to the previous iteration."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Reflection"
+        },
+        {
+          "type": "list",
+          "items": [
+            "User Feedback is Key: Iterative testing helped fine-tune the interface to balance aesthetics and usability.",
+            "Clarity Over Complexity: Simplified designs are more engaging and easier to navigate, especially for mobile users."
+          ]
         }
       ]
-    },
+    },    
     {
       "id": 2,
       "title": "Gem Store Menu - Firestone Idle RPG",
@@ -164,7 +253,7 @@
         },
         {
           "type": "text",
-          "content": "<strong>Decorated Heroes (Medieval Festival)</strong>: For the \"Decorated Heroes\" event, I wanted to capture the festive spirit of a medieval celebration. I chose a bright castle backdrop complemented by celebratory confetti to set the mood. The characters were designed in regal medieval attire, emphasizing intricate details to reflect the grandeur of the era. Gold and red tones were selected to create a royal and festive atmosphere."
+          "content": "Decorated Heroes (Medieval Festival): For the \"Decorated Heroes\" event, I wanted to capture the festive spirit of a medieval celebration. I chose a bright castle backdrop complemented by celebratory confetti to set the mood. The characters were designed in regal medieval attire, emphasizing intricate details to reflect the grandeur of the era. Gold and red tones were selected to create a royal and festive atmosphere."
         },
         {
           "type": "image",
