@@ -34,9 +34,8 @@ const Footer = () => {
                     <div className="line-divider"></div>
                     <div className="padding-top padding-medium">
                         <div className="footer-bottom-wrapper">
-                            <div className="footer-credit-text">
-                                Thanks for stopping by. Have a great day! 😊
-                            </div>
+                            <div className="footer-heading">Lets's work together.</div>
+                            <div className="footer-email">email me <a href="mailto:eirinintall99@gmail.com">eirinintall99@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
