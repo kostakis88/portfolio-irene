@@ -403,16 +403,20 @@
           "content": "My Design Process"
         },
         {
-          "type": "text",
-          "content": "1. Research and Ideation\n• I collaborated closely with the game design team to understand each event's lore, characters, and objectives.\n• I analyzed previous banners to identify design elements that resonated with players and performed well."
+          "type": "list",
+          "items": [
+            "Research and Ideation",
+            "I collaborated closely with the game design team to understand each event's lore, characters, and objectives",
+            "I analyzed previous banners to identify design elements that resonated with players and performed well"
+          ]
         },
         {
           "type": "heading",
           "content": "My Design Approach"
         },
         {
-          "type": "text",
-          "content": "Decorated Heroes (Medieval Festival): For the \"Decorated Heroes\" event, I wanted to capture the festive spirit of a medieval celebration. I chose a bright castle backdrop complemented by celebratory confetti to set the mood. The characters were designed in regal medieval attire, emphasizing intricate details to reflect the grandeur of the era. Gold and red tones were selected to create a royal and festive atmosphere."
+          "type": "secondary",
+          "content": "Decorated Heroes (Medieval Festival)"
         },
         {
           "type": "image",
@@ -420,7 +424,11 @@
         },
         {
           "type": "text",
-          "content": "Trick or Treat (Halloween): For the \"Trick or Treat\" event, I aimed to evoke the spooky yet playful essence of Halloween. A deep purple background featuring a glowing full moon and flying bats set the perfect eerie tone. The avatars, including pumpkin-headed characters and witches, brought a whimsical and seasonal touch. Green and orange accents were added to evoke the classic Halloween palette, while the fun, rounded game's font style helped maintain an approachable and playful tone."
+          "content": "For the \"Decorated Heroes\" event, I wanted to capture the festive spirit of a medieval celebration. I chose a bright castle backdrop complemented by celebratory confetti to set the mood. The characters were designed in regal medieval attire, emphasizing intricate details to reflect the grandeur of the era. Gold and red tones were selected to create a royal and festive atmosphere."
+        },
+        {
+          "type": "secondary",
+          "content": "Trick or Treat (Halloween)"
         },
         {
           "type": "image",
@@ -428,7 +436,11 @@
         },
         {
           "type": "text",
-          "content": "Love Is in the Air (Valentine’s Day): The \"Love Is in the Air\" event allowed me to explore the romantic themes of Valentine’s Day. I chose pink and red tones as the foundation, framing the visuals with rose motifs to heighten the romantic vibe. The characters were styled with elements like roses, hearts, and elegant outfits to embody the theme. To add a unique twist, I included a humorous goblin character holding a rose."
+          "content": "For the \"Trick or Treat\" event, I aimed to evoke the spooky yet playful essence of Halloween. A deep purple background featuring a glowing full moon and flying bats set the perfect eerie tone. The avatars, including pumpkin-headed characters and witches, brought a whimsical and seasonal touch. Green and orange accents were added to evoke the classic Halloween palette, while the fun, rounded game's font style helped maintain an approachable and playful tone."
+        },
+        {
+          "type": "secondary",
+          "content": "Love Is in the Air (Valentine’s Day)"
         },
         {
           "type": "image",
@@ -436,15 +448,35 @@
         },
         {
           "type": "text",
-          "content": "Nature’s Dance (Spring Festival): \"Nature’s Dance\" was inspired by the renewal and beauty of spring. I used soft pastel colors with floral elements like roses and butterflies to create a cheerful and inviting atmosphere. The characters were dressed in vibrant, spring-themed outfits that complemented the glowing sunburst in the background."
+          "content": "The \"Love Is in the Air\" event allowed me to explore the romantic themes of Valentine’s Day. I chose pink and red tones as the foundation, framing the visuals with rose motifs to heighten the romantic vibe. The characters were styled with elements like roses, hearts, and elegant outfits to embody the theme. To add a unique twist, I included a humorous goblin character holding a rose."
+        },
+        {
+          "type": "secondary",
+          "content": "Nature’s Dance (Spring Festival)"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/natures-dance.png"
         },
         {
           "type": "text",
-          "content": "Tropicana (Summer Event): For the \"Tropicana\" event, I wanted to convey the joy and relaxation of summer. Vibrant colors like turquoise and coral brought the tropical theme to life, while elements like palm trees, sandy beaches, and sunglasses emphasized the season’s carefree vibe."
+          "content": "\"Nature’s Dance\" was inspired by the renewal and beauty of spring. I used soft pastel colors with floral elements like roses and butterflies to create a cheerful and inviting atmosphere. The characters were dressed in vibrant, spring-themed outfits that complemented the glowing sunburst in the background."
+        },
+        {
+          "type": "secondary",
+          "content": "Tropicana (Summer Event)"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/tropicana-event.png"
         },
         {
           "type": "text",
-          "content": "Winter Festival (Christmas): For the \"Winter Festival\" event, I focused on creating a festive and cozy holiday atmosphere. Snow-covered trees and a cheerful reindeer character were central to the design. Cool tones of blue and white contrasted with warm festive red to evoke a sense of warmth amidst the winter chill. Sparkling stars and snowflakes added depth to the background, while the bold and cheerful font style enhanced the festive spirit."
+          "content": "For the \"Tropicana\" event, I wanted to convey the joy and relaxation of summer. Vibrant colors like turquoise and coral brought the tropical theme to life, while elements like palm trees, sandy beaches, and sunglasses emphasized the season’s carefree vibe."
+        },
+        {
+          "type": "secondary",
+          "content": "Winter Festival (Christmas)"
         },
         {
           "type": "image",
@@ -452,11 +484,19 @@
         },
         {
           "type": "text",
-          "content": "Astral Alignment (Sci-fi Cosmic Event): With \"Astral Alignment,\" I delved into the futuristic and cosmic theme. A deep blue space palette served as the perfect backdrop for this event, creating a sense of wonder and exploration. Futuristic avatars, including astronauts and cosmic creatures, were designed to resonate with the sci-fi aesthetic. I ensured to incorporate characters and rewards prominently, ensuring they were the focal point of each banner."
+          "content": "For the \"Winter Festival\" event, I focused on creating a festive and cozy holiday atmosphere. Snow-covered trees and a cheerful reindeer character were central to the design. Cool tones of blue and white contrasted with warm festive red to evoke a sense of warmth amidst the winter chill. Sparkling stars and snowflakes added depth to the background, while the bold and cheerful font style enhanced the festive spirit."
+        },
+        {
+          "type": "secondary",
+          "content": "Astral Alignment (Sci-fi Cosmic Event)"
         },
         {
           "type": "image",
           "src": "images/projects/project3/astral-aligment.png"
+        },
+        {
+          "type": "text",
+          "content": "With \"Astral Alignment,\" I delved into the futuristic and cosmic theme. A deep blue space palette served as the perfect backdrop for this event, creating a sense of wonder and exploration. Futuristic avatars, including astronauts and cosmic creatures, were designed to resonate with the sci-fi aesthetic. I ensured to incorporate characters and rewards prominently, ensuring they were the focal point of each banner."
         },
         {
           "type": "heading",

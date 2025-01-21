@@ -15,7 +15,11 @@ const ContentSection = ({ content }) => {
                     case 'text':
                       return <p key={index}>{item.content}</p>;
                     case 'heading':
-                      return <h2 key={index}><strong>{item.content}</strong></h2>;
+                      return <h2 key={index}>{item.content}</h2>;
+                    case 'strong':
+                      return <strong key={index}>{item.content}</strong>;
+                    case 'secondary':
+                      return <div key={index} className='secondary-heading'>{item.content}</div>;
                     case 'video':
                       return <VideoEmbed key={index} videoSrc={item.src} title={item.title} />;
                     case 'image':
