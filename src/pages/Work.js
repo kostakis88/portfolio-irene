@@ -6,40 +6,28 @@ const Work = () => {
     const workItems = [
         {
             id: 1,
-            title: 'Crafting an Impactful Settings Menu',
-            description: 'Analyzing best practices',
-            tags: ['Personal Project'],
+            title: 'Crafting Immersive UI/UX for the Main Battle Screen - Firestone Idle RPG',
+            description: 'Designing an Intuitive Fantasy Battle Screen for Idle RPG Adventures',
+            tags: ['Full Time Role'],
         },
         {
             id: 2,
-            title: 'Creating a more personal Life is Strange episode selection screen',
-            description: 'Redesign concept for episode selection screen in Life is Strange.',
-            tags: ['Personal Project'],
+            title: 'Gem Store Menu - Firestone Idle RPG',
+            description: 'Creating Engaging Interfaces to Boost Purchases and Drive Monetization',
+            tags: ['Full Time Role'],
         },
         {
             id: 3,
-            title: 'Fortnite Battle Royale',
-            description: 'Creating engaging user experiences for Fortnite Battle Royale at Epic Games',
+            title: 'Promotional Design for Google Play – Firestone Idle RPG',
+            description: 'Festive Flair: Captivating Banner Designs for Seasonal Promotions',
             tags: ['Full Time Role'],
         },
         {
             id: 4,
-            title: 'Designing a Mode Selection Menu for a Spider-Verse Game',
-            description: 'Menu design concept for a spider-verse game.',
-            tags: ['Personal Project'],
-        },
-        {
-            id: 5,
-            title: "Marvel's Spider-Man 2",
-            description: "UI/UX Art Intern on Marvel's Spider-Man 2 at Insomniac Games",
-            tags: ['Internship'],
-        },
-        {
-            id: 6,
-            title: 'Designing with Accessibility - The Walking Dead Final Season',
-            description: 'Analyzing design approaches presented throughout The Walking Dead Final Season',
-            tags: ['Personal Project'],
-        },
+            title: 'Designing Seasonal Event Promotional Banners - Firestone Idle RPG',
+            description: 'Crafting Eye-Catching App Store Visuals for Game Promotions',
+            tags: ['Full Time Role'],
+        }
     ];
 
     return (
