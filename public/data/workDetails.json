@@ -11,7 +11,7 @@
         }
       ],
       "image": {
-        "src": "images/battle.png",
+        "src": "images/projects/project1/main-battle-banner.png",
         "alt": "Main Battle Screen Image"
       },
       "content": [
@@ -187,7 +187,7 @@
         }
       ],
       "image": {
-        "src": "images/store.png",
+        "src": "images/projects/project2/store-banner.png",
         "alt": "Gem Store UI"
       },
       "content": [
@@ -362,7 +362,7 @@
         }
       ],
       "image": {
-        "src": "images/seasonal.png",
+        "src": "images/projects/project3/promo-banner.png",
         "alt": "Seasonal Events Image"
       },
       "content": [
@@ -535,7 +535,7 @@
         }
       ],
       "image": {
-        "src": "images/promo.png",
+        "src": "images/projects/project4/seasonal-banner.png",
         "alt": "Google Play Promotional Design"
       },
       "content": [
