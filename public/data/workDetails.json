@@ -353,7 +353,7 @@
     },
     {
       "id": 3,
-      "title": "Designing Seasonal Event Promotional Banners for an Idle RPG Game",
+      "title": "Designing Seasonal Events Promotional Banners",
       "subtitle": "Crafting Engaging Banners to Captivate and Motivate Players",
       "tags": [
         {
@@ -371,8 +371,9 @@
           "content": "Overview"
         },
         {
-          "type": "text",
-          "content": "I was responsible for designing the UI and promotional banners for seasonal in-game events. These designs not only highlighted the unique themes of each event but also aimed to captivate players and encourage their participation. The events featured exclusive, time-limited rewards such as skins and avatars, making them highly engaging and motivating for the player base."
+          "type": "highlighted-text",
+          "text": "I was responsible for designing the UI/UX and promotional banners for seasonal in-game events.These designs not only highlighted the unique themes of each event but also aimed to captivate players and encourage their participation. The events featured exclusive, time-limited rewards such as skins and avatars, making them highly engaging and motivating for the player base.",
+          "highlight": ["UI/UX", "promotional banners"]
         },
         {
           "type": "heading",
@@ -381,9 +382,18 @@
         {
           "type": "list",
           "items": [
-            "Attract Player Attention: Create visually compelling designs that immediately grab players' interest.",
-            "Convey Event Information: Clearly communicate the theme, event name, and rewards at a glance.",
-            "Enhance User Engagement: Encourage participation by showcasing the exclusivity of limited-time rewards."
+            {
+              "text": "Attract Player Attention: Create visually compelling designs that immediately grab players' interest.",
+              "highlight": ["Attract Player Attention"]
+            },
+            {
+              "text": "Convey Event Information: Clearly communicate the theme, event name, and rewards at a glance.",
+              "highlight": ["Convey Event Information"]
+            },
+            {
+              "text": "Enhance User Engagement: Encourage participation by showcasing the exclusivity of limited-time rewards.",
+              "highlight": ["Enhance User Engagement"]
+            }
           ]
         },
         {
@@ -393,133 +403,154 @@
         {
           "type": "list",
           "items": [
-            "Consistency Across Themes: Balancing creativity for unique themes while maintaining the game’s brand identity.",
-            "Space Constraints: Ensuring all key information and visuals fit into the limited banner space without feeling cluttered.",
-            "Player Motivation: Effectively highlighting rewards to generate excitement and drive engagement."
+            {
+              "text": "Consistency Across Themes: Balancing creativity for unique themes while maintaining the game’s brand identity",
+              "highlight": ["Consistency Across Themes"]
+            },
+            {
+              "text": "Space Constraints: Ensuring all key information and visuals fit into the limited banner space without feeling cluttered.",
+              "highlight": ["Space Constraints"]
+            },
+            {
+              "text": "Player Motivation: Effectively highlighting rewards to generate excitement and drive engagement.",
+              "highlight": ["Player Motivation"]
+            }
           ]
         },
         {
           "type": "heading",
-          "content": "My Design Process"
+          "content": "Solution"
+        },
+        {
+          "type": "strong",
+          "content": "Research and Ideation"
         },
         {
           "type": "list",
           "items": [
-            "Research and Ideation",
             "I collaborated closely with the game design team to understand each event's lore, characters, and objectives",
             "I analyzed previous banners to identify design elements that resonated with players and performed well"
           ]
         },
         {
           "type": "heading",
-          "content": "My Design Approach"
+          "content": "Final Designs"
         },
         {
           "type": "secondary",
           "content": "Decorated Heroes (Medieval Festival)"
         },
         {
-          "type": "image",
-          "src": "images/projects/project3/decorated-heroes.png"
-        },
-        {
           "type": "text",
           "content": "For the \"Decorated Heroes\" event, I wanted to capture the festive spirit of a medieval celebration. I chose a bright castle backdrop complemented by celebratory confetti to set the mood. The characters were designed in regal medieval attire, emphasizing intricate details to reflect the grandeur of the era. Gold and red tones were selected to create a royal and festive atmosphere."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/decorated-heroes.png"
         },
         {
           "type": "secondary",
           "content": "Trick or Treat (Halloween)"
         },
         {
-          "type": "image",
-          "src": "images/projects/project3/halloween-event.png"
-        },
-        {
           "type": "text",
           "content": "For the \"Trick or Treat\" event, I aimed to evoke the spooky yet playful essence of Halloween. A deep purple background featuring a glowing full moon and flying bats set the perfect eerie tone. The avatars, including pumpkin-headed characters and witches, brought a whimsical and seasonal touch. Green and orange accents were added to evoke the classic Halloween palette, while the fun, rounded game's font style helped maintain an approachable and playful tone."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/halloween-event.png"
         },
         {
           "type": "secondary",
           "content": "Love Is in the Air (Valentine’s Day)"
         },
         {
-          "type": "image",
-          "src": "images/projects/project3/love-is-in-the-air.png"
-        },
-        {
           "type": "text",
           "content": "The \"Love Is in the Air\" event allowed me to explore the romantic themes of Valentine’s Day. I chose pink and red tones as the foundation, framing the visuals with rose motifs to heighten the romantic vibe. The characters were styled with elements like roses, hearts, and elegant outfits to embody the theme. To add a unique twist, I included a humorous goblin character holding a rose."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/love-is-in-the-air.png"
         },
         {
           "type": "secondary",
           "content": "Nature’s Dance (Spring Festival)"
         },
         {
-          "type": "image",
-          "src": "images/projects/project3/natures-dance.png"
-        },
-        {
           "type": "text",
           "content": "\"Nature’s Dance\" was inspired by the renewal and beauty of spring. I used soft pastel colors with floral elements like roses and butterflies to create a cheerful and inviting atmosphere. The characters were dressed in vibrant, spring-themed outfits that complemented the glowing sunburst in the background."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/natures-dance.png"
         },
         {
           "type": "secondary",
           "content": "Tropicana (Summer Event)"
         },
         {
-          "type": "image",
-          "src": "images/projects/project3/tropicana-event.png"
-        },
-        {
           "type": "text",
           "content": "For the \"Tropicana\" event, I wanted to convey the joy and relaxation of summer. Vibrant colors like turquoise and coral brought the tropical theme to life, while elements like palm trees, sandy beaches, and sunglasses emphasized the season’s carefree vibe."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/tropicana-event.png"
         },
         {
           "type": "secondary",
           "content": "Winter Festival (Christmas)"
         },
         {
-          "type": "image",
-          "src": "images/projects/project3/winter-festival.png"
-        },
-        {
           "type": "text",
           "content": "For the \"Winter Festival\" event, I focused on creating a festive and cozy holiday atmosphere. Snow-covered trees and a cheerful reindeer character were central to the design. Cool tones of blue and white contrasted with warm festive red to evoke a sense of warmth amidst the winter chill. Sparkling stars and snowflakes added depth to the background, while the bold and cheerful font style enhanced the festive spirit."
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project3/winter-festival.png"
         },
         {
           "type": "secondary",
           "content": "Astral Alignment (Sci-fi Cosmic Event)"
         },
         {
-          "type": "image",
-          "src": "images/projects/project3/astral-aligment.png"
-        },
-        {
           "type": "text",
           "content": "With \"Astral Alignment,\" I delved into the futuristic and cosmic theme. A deep blue space palette served as the perfect backdrop for this event, creating a sense of wonder and exploration. Futuristic avatars, including astronauts and cosmic creatures, were designed to resonate with the sci-fi aesthetic. I ensured to incorporate characters and rewards prominently, ensuring they were the focal point of each banner."
         },
         {
+          "type": "image",
+          "src": "images/projects/project3/astral-aligment.png"
+        },
+        {
           "type": "heading",
-          "content": "Outcome"
+          "content": "Product Success"
         },
         {
           "type": "list",
           "items": [
-            "Increased player participation in seasonal events by 33%.",
+            "Increased player participation in seasonal events.",
             "Positive feedback from players, praising the clarity and aesthetic appeal of the banners.",
-            "Reinforced the game’s brand identity while enhancing the user experience."
+            "The banners successfully reinforced the game’s brand identity while enhancing the user experience."
           ]
         },
         {
           "type": "heading",
-          "content": "Key Takeaways"
+          "content": "What I Learned"
         },
         {
           "type": "list",
           "items": [
-            "Understand the Audience: Knowing what appeals to the target demographic is critical to designing effective UI/UX.",
-            "Iterate Based on Feedback: Player insights are invaluable for improving design clarity and engagement.",
-            "Balance Creativity and Functionality: While aesthetics are important, ensuring the message is clear is equally essential."
+            {
+              "text": "Good Time Management: Helps meet deadlines without compromising quality. Seasonal events often have tight deadlines, requiring efficient planning and execution. Pre-designing reusable templates for recurring events can be highly effective.",
+              "highlight": ["Good Time Management"]
+            },
+            {
+              "text": "Balancing Creativity and Clarity: Ensuring promotional details, such as discounts, deadlines, or event highlights, remain prominent and easy to read. Aesthetic appeal should support, not detract from, the communication goal. Clarity is equally essential.",
+              "highlight": ["Balancing Creativity and Clarity"]
+            },
+            {
+              "text": "Emotionally Compelling Designs: Builds a stronger connection with the audience. Seasonal events are emotionally charged, so designs should evoke the right feelings. For example, using warm, nostalgic visuals for the holidays or energizing graphics for New Year's promotions.",
+              "highlight": ["Emotionally Compelling Designs"]
+            }
           ]
         }
       ]

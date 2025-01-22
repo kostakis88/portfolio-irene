@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoEmbed from './VideoEmbed';
 import ImageWithCaption from './ImageWithCaption';
+import HighlightedText, { RenderContent } from './HighlightedText';
 
 const ContentSection = ({ content }) => {
   return (
@@ -14,12 +15,21 @@ const ContentSection = ({ content }) => {
                   switch (item.type) {
                     case 'text':
                       return <p key={index}>{item.content}</p>;
+                    case 'highlighted-text':
+                      return (
+                        <p key={index}>
+                          <HighlightedText
+                            text={item.text}
+                            phrases={item.highlight || []}
+                          />
+                        </p>
+                      );
                     case 'heading':
                       return <h2 key={index}>{item.content}</h2>;
                     case 'strong':
                       return <strong key={index}>{item.content}</strong>;
                     case 'secondary':
-                      return <div key={index} className='secondary-heading'>{item.content}</div>;
+                      return <div key={index} className="secondary-heading">{item.content}</div>;
                     case 'video':
                       return <VideoEmbed key={index} videoSrc={item.src} title={item.title} />;
                     case 'image':
@@ -28,7 +38,9 @@ const ContentSection = ({ content }) => {
                       return (
                         <ul key={index}>
                           {item.items.map((listItem, idx) => (
-                            <li key={idx}>{listItem}</li>
+                            <li key={idx}>
+                              <RenderContent item={listItem} />
+                            </li>
                           ))}
                         </ul>
                       );
