@@ -175,7 +175,7 @@
           ]
         }
       ]
-    },    
+    },
     {
       "id": 2,
       "title": "Gem Store UI for Idle RPG Game",
@@ -196,27 +196,63 @@
           "content": "Overview"
         },
         {
-          "type": "text",
-          "content": "Objective: To design a gem store interface that maximizes user engagement, simplifies purchasing decisions, and promotes monetization by highlighting offers and incentivizing first-time purchases."
+          "type": "highlighted-text",
+          "text": "To design a gem store interface that maximizes user engagement, simplifies purchasing decisions, and promotes monetization by highlighting offers and incentivizing first-time purchases.",
+          "highlight": [
+            "gem store interface"
+          ]
         },
         {
-          "type": "text",
-          "content": "Target Audience:\n• New Players: Attracted by first-purchase bonuses and clear pricing.\n• Experienced Players: Need a straightforward interface to quickly make purchases."
+          "type": "strong",
+          "content": "Target Audience:"
         },
         {
-          "type": "text",
-          "content": "Role: UI/UX Designer\n• Designed the layout, visual elements, and user flow for the gem store interface.\n• Collaborated with monetization strategists to align the design with revenue goals."
+          "type": "list",
+          "items": [
+            "New Players: Attracted by first-purchase bonuses and clear pricing.",
+            "Experienced Players: Need a straightforward interface to quickly make purchases."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Role: UI/UX Designer"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Designed the layout, visual elements, and user flow for the gem store interface.",
+            "Collaborated with monetization strategists to align the design with revenue goals."
+          ]
         },
         {
           "type": "heading",
           "content": "Problem Statement"
         },
         {
+          "type": "text",
+          "content": "The store needed to address these challenges:"
+        },
+        {
           "type": "list",
           "items": [
-            "Confusion in Pricing and Offers: Players often struggle to understand in-game currency systems and special promotions.",
-            "Engagement: Encourage players to make their first purchase by presenting value clearly.",
-            "Theme Integration: Maintain the visual identity of the game while creating a sales-focused interface."
+            {
+              "text": "Confusion in Pricing and Offers: Players often struggle to understand in-game currency systems and special promotions.",
+              "highlight": [
+                "Confusion in Pricing and Offers"
+              ]
+            },
+            {
+              "text": "Engagement: Encourage players to make their first purchase by presenting value clearly.",
+              "highlight": [
+                "Engagement"
+              ]
+            },
+            {
+              "text": "Theme Integration: Maintain the visual identity of the game while creating a sales-focused interface.",
+              "highlight": [
+                "Theme Integration"
+              ]
+            }
           ]
         },
         {
@@ -237,56 +273,334 @@
           "content": "Research and Analysis"
         },
         {
-          "type": "text",
-          "content": "User Research:\n• Conducted surveys and interviews with idle RPG players.\nPain Points:\n• Confusion about bonus offers.\n• Difficulty comparing gem packs.\nPreferences:\n• Clear pricing and visible rewards.\n• A playful design that matches the game’s art style."
+          "type": "strong",
+          "content": "User Research:"
         },
         {
           "type": "text",
-          "content": "Competitive Analysis:\n• Studied store interfaces from similar games to identify best practices.\nKey Observations:\n• Use of bold typography for prices.\n• Highlighting 'best value' offers with visual cues."
+          "content": "Pain Points:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Confusion over gem pack values and bonus rewards.",
+            "Difficulty comparing gem packs."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Competitive Analysis:"
+        },
+        {
+          "type": "text",
+          "content": "Studied store interfaces from similar games to identify best practices, including:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Use of bold typography for prices.",
+            "Highlighting 'best value' offers with visual cues."
+          ]
         },
         {
           "type": "heading",
           "content": "Design Process"
         },
         {
-          "type": "text",
-          "content": "Wireframing:\n• Created low-fidelity wireframes to test the layout.\n• Placement of gem packs in a grid for easy comparison.\n• Highlighted bonus offers near gem quantities."
+          "type": "secondary",
+          "content": "Wireframing:"
         },
         {
-          "type": "text",
-          "content": "Prototyping:\n• Developed interactive prototypes in Figma to simulate user flow.\n• Tested navigation between tabs and the purchase confirmation flow."
+          "type": "list",
+          "items": [
+            "Created low-fidelity wireframes to test the layout.",
+            "Placement of gem packs in a grid for easy comparison.",
+            "Highlighted bonus offers near gem quantities."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "images/projects/project2/gem-store-wireframe.png"
         },
         {
           "type": "heading",
           "content": "Final Design Features"
         },
         {
+          "type": "secondary",
+          "content": "Layout and Information Hierarchy"
+        },
+        {
+          "type": "strong",
+          "content": "Header:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Includes navigation tabs for different store categories (e.g., items, gems).",
+            "Red notification badges draw attention to special offers or new items."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Gem Packs:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Organized into a 2x3 grid to facilitate easy comparison.",
+            "Each pack includes:",
+            {
+              "text": "Gem quantity with a bold, prominent font."
+            },
+            {
+              "text": "Price in in-game currency (K coins)."
+            },
+            {
+              "text": "First-purchase bonus, highlighted with a blue ribbon for visibility."
+            }
+          ]
+        },
+        {
+          "type": "secondary",
+          "content": "Visual Design"
+        },
+        {
+          "type": "strong",
+          "content": "Color Palette:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bright yellows and purples contrast to highlight gem packs.",
+            "Blue banners emphasize bonus offers without overwhelming the layout."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Typography:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bold, legible fonts for key information (gem quantities, prices).",
+            "Smaller, secondary text for additional details like bonus offers."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Iconography:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gem icons are prominently displayed to visually communicate the content of each pack."
+          ]
+        },
+        {
+          "type": "secondary",
+          "content": "Player Engagement Features"
+        },
+        {
+          "type": "strong",
+          "content": "First-Purchase Bonus:"
+        },
+        {
+          "type": "text",
+          "content": "Adds perceived value with a \"DOUBLE GEMS\" tip and blue highlights."
+        },
+        {
+          "type": "strong",
+          "content": "Tooltip and Mascot:"
+        },
+        {
+          "type": "text",
+          "content": "The cute mascot provides tips, making the store feel welcoming and engaging."
+        },
+        {
+          "type": "strong",
+          "content": "Price Scaling:"
+        },
+        {
+          "type": "text",
+          "content": "Larger gem packs are visually emphasized to promote higher-value purchases."
+        },
+        {
+          "type": "secondary",
+          "content": "Accessibility"
+        },
+        {
+          "type": "strong",
+          "content": "Mobile Optimization:"
+        },
+        {
+          "type": "text",
+          "content": "Large buttons and tappable areas ensure usability on smaller screens."
+        },
+        {
+          "type": "strong",
+          "content": "Colorblind-Friendly:"
+        },
+        {
+          "type": "text",
+          "content": "Contrasting colors for key information (e.g., yellow prices on purple backgrounds)."
+        },
+        {
           "type": "heading",
-          "content": "6.1 Layout and Information Hierarchy"
+          "content": "Challenges and Solutions"
         },
         {
-          "type": "text",
-          "content": "Header:\n• Includes navigation tabs for different store categories (e.g., items, gems).\n• Red notification badges draw attention to special offers or new items."
+          "type": "highlighted-text",
+          "text": "Challenge 1: Avoiding information overload.",
+          "highlight": [
+            "Avoiding information overload"
+          ]
         },
         {
-          "type": "text",
-          "content": "Gem Packs:\n• Organized into a 2x3 grid to facilitate easy comparison.\nEach pack includes:\n• Gem quantity with a bold, prominent font.\n• Price in in-game currency (K coins).\n• First-purchase bonus, highlighted with a blue ribbon for visibility."
+          "type": "highlighted-text",
+          "text": "Solution: Grouped content into clear sections with consistent formatting. Bonus offers are visually distinct but secondary to gem quantities.",
+          "highlight": [
+            "Solution"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Challenge 2: Encouraging first-time purchases.",
+          "highlight": [
+            "Encouraging first-time purchases"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Solution: Highlighted bonuses with blue banners and a “Tip” from the mascot.",
+          "highlight": [
+            "Solution"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Challenge 3: Retaining visual consistency with the game’s theme.",
+          "highlight": [
+            "Retaining visual consistency"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Solution: Used game-matching art styles and fantasy-inspired colors to create a cohesive design.",
+          "highlight": [
+            "Solution"
+          ]
         },
         {
           "type": "heading",
-          "content": "6.2 Visual Design"
+          "content": "Product Success"
         },
         {
-          "type": "text",
-          "content": "Color Palette:\n• Bright yellows and purples contrast to highlight gem packs.\n• Blue banners emphasize bonus offers without overwhelming the layout."
+          "type": "secondary",
+          "content": "Quantitative Metrics:"
         },
         {
-          "type": "text",
-          "content": "Typography:\n• Bold, legible fonts for key information (gem quantities, prices).\n• Smaller, secondary text for additional details like bonus offers."
+          "type": "list",
+          "items": [
+            {
+              "text": "Purchase Rates: First-time purchase conversions increased by 25% after implementing the design.",
+              "highlight": [
+                "Purchase Rates"
+              ]
+            },
+            {
+              "text": "Revenue Growth: Average transaction value grew by 15% due to the emphasis on larger gem packs.",
+              "highlight": [
+                "Revenue Growth"
+              ]
+            }
+          ]
         },
         {
-          "type": "text",
-          "content": "Iconography:\n• Gem icons are prominently displayed to visually communicate the content of each pack."
+          "type": "secondary",
+          "content": "Qualitative Feedback:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Players appreciated the clear presentation of pricing and bonuses.",
+            "The mascot and tooltip were noted as fun and engaging additions."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "What I Learned"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Clarity Drives Conversion: Simplifying pricing and bonus information directly impacts user engagement.",
+              "highlight": [
+                "Clarity Drives Conversion"
+              ]
+            },
+            {
+              "text": "Visual Hierarchy Matters: Proper emphasis on high-value offers encourages larger purchases.",
+              "highlight": [
+                "Visual Hierarchy Matters"
+              ]
+            },
+            {
+              "text": "Engagement Through Design: Adding playful elements like the mascot enhances the user experience.",
+              "highlight": [
+                "Engagement Through Design"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "UX Analysis /Shop Menu"
+        },
+        {
+          "type": "strong",
+          "content": "Ease of Navigation:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tabs and categories are intuitive, allowing users to quickly switch between different shop types (e.g., gear chests, gem store, etc.).",
+            "Large touch-friendly buttons and icons facilitate mobile usability."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Clarity of Information:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pricing, quantity, and bonuses are well-explained, reducing cognitive load.",
+            "Tooltips and the \"info\" icon provide additional explanations, making the experience beginner-friendly."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Engagement:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gamification elements such as daily rewards, special bundles, and first-purchase offers encourage regular interaction.",
+            "The progress bar for daily rewards (\"Days Checked In\") provides a sense of accomplishment."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Feedback and Actions:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Highlighted \"Claim\" buttons and countdown timers add urgency for time-sensitive offers.",
+            "Confirmation cues for purchases or item selections could enhance user confidence further."
+          ]
         },
         {
           "type": "image",
@@ -311,46 +625,9 @@
         {
           "type": "image",
           "src": "images/projects/project2/item-shop.png"
-        },
-        {
-          "type": "heading",
-          "content": "Results and Impact"
-        },
-        {
-          "type": "list",
-          "items": [
-            "First-time purchase conversions increased by 25% after implementing the design.",
-            "Average transaction value grew by 15% due to the emphasis on larger gem packs.",
-            "Players appreciated the clear presentation of pricing and bonuses.",
-            "The mascot and tooltip were noted as fun and engaging additions."
-          ]
-        },
-        {
-          "type": "heading",
-          "content": "Lessons Learned"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Clarity Drives Conversion: Simplifying pricing and bonus information directly impacts user engagement.",
-            "Visual Hierarchy Matters: Proper emphasis on high-value offers encourages larger purchases.",
-            "Engagement Through Design: Adding playful elements like the mascot enhances the user experience."
-          ]
-        },
-        {
-          "type": "heading",
-          "content": "Future Enhancements"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Introduce seasonal or limited-time offers with animated visual cues (e.g., glowing borders).",
-            "Add a 'Best Value' tag to emphasize high-value gem packs.",
-            "Implement a progress bar for loyalty rewards to encourage repeat purchases."
-          ]
         }
       ]
-    },
+    },    
     {
       "id": 3,
       "title": "Designing Seasonal Events Promotional Banners",
@@ -373,7 +650,10 @@
         {
           "type": "highlighted-text",
           "text": "I was responsible for designing the UI/UX and promotional banners for seasonal in-game events.These designs not only highlighted the unique themes of each event but also aimed to captivate players and encourage their participation. The events featured exclusive, time-limited rewards such as skins and avatars, making them highly engaging and motivating for the player base.",
-          "highlight": ["UI/UX", "promotional banners"]
+          "highlight": [
+            "UI/UX",
+            "promotional banners"
+          ]
         },
         {
           "type": "heading",
@@ -384,15 +664,21 @@
           "items": [
             {
               "text": "Attract Player Attention: Create visually compelling designs that immediately grab players' interest.",
-              "highlight": ["Attract Player Attention"]
+              "highlight": [
+                "Attract Player Attention"
+              ]
             },
             {
               "text": "Convey Event Information: Clearly communicate the theme, event name, and rewards at a glance.",
-              "highlight": ["Convey Event Information"]
+              "highlight": [
+                "Convey Event Information"
+              ]
             },
             {
               "text": "Enhance User Engagement: Encourage participation by showcasing the exclusivity of limited-time rewards.",
-              "highlight": ["Enhance User Engagement"]
+              "highlight": [
+                "Enhance User Engagement"
+              ]
             }
           ]
         },
@@ -405,15 +691,21 @@
           "items": [
             {
               "text": "Consistency Across Themes: Balancing creativity for unique themes while maintaining the game’s brand identity",
-              "highlight": ["Consistency Across Themes"]
+              "highlight": [
+                "Consistency Across Themes"
+              ]
             },
             {
               "text": "Space Constraints: Ensuring all key information and visuals fit into the limited banner space without feeling cluttered.",
-              "highlight": ["Space Constraints"]
+              "highlight": [
+                "Space Constraints"
+              ]
             },
             {
               "text": "Player Motivation: Effectively highlighting rewards to generate excitement and drive engagement.",
-              "highlight": ["Player Motivation"]
+              "highlight": [
+                "Player Motivation"
+              ]
             }
           ]
         },
@@ -541,20 +833,26 @@
           "items": [
             {
               "text": "Good Time Management: Helps meet deadlines without compromising quality. Seasonal events often have tight deadlines, requiring efficient planning and execution. Pre-designing reusable templates for recurring events can be highly effective.",
-              "highlight": ["Good Time Management"]
+              "highlight": [
+                "Good Time Management"
+              ]
             },
             {
               "text": "Balancing Creativity and Clarity: Ensuring promotional details, such as discounts, deadlines, or event highlights, remain prominent and easy to read. Aesthetic appeal should support, not detract from, the communication goal. Clarity is equally essential.",
-              "highlight": ["Balancing Creativity and Clarity"]
+              "highlight": [
+                "Balancing Creativity and Clarity"
+              ]
             },
             {
               "text": "Emotionally Compelling Designs: Builds a stronger connection with the audience. Seasonal events are emotionally charged, so designs should evoke the right feelings. For example, using warm, nostalgic visuals for the holidays or energizing graphics for New Year's promotions.",
-              "highlight": ["Emotionally Compelling Designs"]
+              "highlight": [
+                "Emotionally Compelling Designs"
+              ]
             }
           ]
         }
       ]
-    },        
+    },
     {
       "id": 4,
       "title": "Promotional Design for Google Play",
@@ -581,7 +879,9 @@
         {
           "type": "highlighted-text",
           "text": "As the UI/UX Designer, I was responsible for conceptualizing, designing, and delivering these promotional materials. I ensured that every asset aligned with the game’s branding and adhered to Google Play’s requirements.",
-          "highlight": ["UI/UX Designer"]
+          "highlight": [
+            "UI/UX Designer"
+          ]
         },
         {
           "type": "heading",
@@ -635,7 +935,13 @@
         {
           "type": "highlighted-text",
           "text": "Key takeaways included the use of vibrant colors, dynamic poses, and clear calls-to-action (CTAs). This analysis helped me ensure that each promotional asset was visually engaging while standing out from the competition.",
-          "highlight": ["colors", "dynamic poses", "and clear" ,"calls-to-action", "CTAs"]
+          "highlight": [
+            "colors",
+            "dynamic poses",
+            "and clear",
+            "calls-to-action",
+            "CTAs"
+          ]
         },
         {
           "type": "strong",
@@ -668,7 +974,7 @@
         {
           "type": "list",
           "items": [
-            "I used vibrant visuals and dynamic poses to capture the excitement of battle.", 
+            "I used vibrant visuals and dynamic poses to capture the excitement of battle.",
             "The bright, bold CTA “Win Epic Battles” ensures the message stands out."
           ]
         },
@@ -695,7 +1001,7 @@
         {
           "type": "list",
           "items": [
-            "I utilized effective layering to add depth to the composition.", 
+            "I utilized effective layering to add depth to the composition.",
             "Highlighting character variety appeals to players who value customization.",
             "Bold text (“Unlock Heroes”) clearly communicates the feature.",
             "Highlights a grid of diverse characters available in the game, paired with a dynamic action pose in the foreground."
@@ -724,7 +1030,7 @@
         {
           "type": "list",
           "items": [
-            "Eye-catching character pose conveys triumph.", 
+            "Eye-catching character pose conveys triumph.",
             "Clear distinction between “Global” and “Local” rankings, appealing to competitive players."
           ]
         },
@@ -751,7 +1057,7 @@
         {
           "type": "list",
           "items": [
-            "Vibrant and detailed map design captures the sense of adventure.", 
+            "Vibrant and detailed map design captures the sense of adventure.",
             "Clear CTA (“Save The World”) aligns with the game’s narrative theme."
           ]
         },
@@ -778,7 +1084,7 @@
         {
           "type": "list",
           "items": [
-            "Unique boss designs create visual intrigue.", 
+            "Unique boss designs create visual intrigue.",
             "Darker tones contrast well with other promotional materials, showcasing variety."
           ]
         },
@@ -805,7 +1111,7 @@
         {
           "type": "list",
           "items": [
-            "Clear progression visuals with arrows and glowing effects.", 
+            "Clear progression visuals with arrows and glowing effects.",
             "Bright and engaging color palette."
           ]
         },
@@ -862,6 +1168,6 @@
           "content": "Through this experience, I gained valuable insights into crafting visuals that not only resonate with users but also deliver tangible, impactful outcomes."
         }
       ]
-    }    
+    }
   ]
 }
