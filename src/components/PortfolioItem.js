@@ -5,7 +5,7 @@ import IconButton from './IconButton';
 const PortfolioItem = ({ id, title, description, imgSrc, imgAlt, tag }) => {
     return (
 
-        <div role="listitem" className="portfolio-item">
+        <div role="listitem" className={`portfolio-item item-${id}`}>
             <Link to={`/work/${id}`} className="portfolio-image-link">
                 <div className="margin-zero margin-bottom-xsmall">
                     <div className="portfolio-image-wrapper">
