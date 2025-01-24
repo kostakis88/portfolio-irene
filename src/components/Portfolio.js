@@ -36,7 +36,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: 'Promotional Design for Google Play – Firestone Idle RPG',
-      description: "Crafting Eye-Catching App Store Visuals for Game Promotions",
+      description: "Crafting Eye-Catching Google Play Visuals for Game Promotions",
       imgSrc: promo,
       imgAlt: 'Promo Image',
       tag: 'Full Time Role',

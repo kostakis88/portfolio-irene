@@ -19,7 +19,7 @@ const Work = () => {
         {
             id: 3,
             title: 'Designing Seasonal Event Promotional Banners - Firestone Idle RPG',
-            description: 'Crafting Eye-Catching App Store Visuals for Game Promotions',
+            description: 'Crafting Eye-Catching Google Play Visuals for Game Promotions',
             tags: ['Full Time Role'],
         },
         {
