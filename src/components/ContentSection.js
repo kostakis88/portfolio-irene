@@ -10,7 +10,7 @@ const ContentSection = ({ content }) => {
         <div className="container-small">
           <div className="padding-section-large">
             <div className="content-component">
-              <div className="text-rich-text w-richtext">
+              <div className="details-text">
                 {content.map((item, index) => {
                   switch (item.type) {
                     case 'text':
