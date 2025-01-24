@@ -16,7 +16,7 @@ const Footer = () => {
                             </div>
                             <div className="footer-social-list">
                                 <a
-                                    href="#"
+                                    href="https://www.linkedin.com/in/irene-ntalla-1b4728143"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="footer-social-link w-inline-block"
