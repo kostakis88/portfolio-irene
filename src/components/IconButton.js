@@ -1,9 +1,9 @@
 import React from 'react';
 
-const IconButton = () => {
+const IconButton = ({to}) => {
     return (
         <div className="portfolio-button-wrapper">
-            <a className="button is-link is-icon w-inline-block" href="#">
+            <a className="button is-link is-icon inline-block" href={to}>
                 <div>View work</div>
                 <div className="icon">
                     <svg

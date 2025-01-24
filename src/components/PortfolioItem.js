@@ -22,7 +22,7 @@ const PortfolioItem = ({ id, title, description, imgSrc, imgAlt, tag }) => {
                     <div className="tag-text">{tag}</div>
                 </a>
             </div>
-            <IconButton />
+            <IconButton to={`/work/${id}`} />
         </div>
     );
 };
