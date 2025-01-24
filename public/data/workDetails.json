@@ -20,16 +20,40 @@
           "content": "Overview"
         },
         {
-          "type": "text",
-          "content": "Objective: To design a visually engaging and intuitive main battle screen for an idle RPG game that enhances player interaction, ensures accessibility for key gameplay features, and maintains a consistent theme aligned with the fantasy genre."
+          "type": "highlighted-text",
+          "text": "My objective was to design a visually engaging and intuitive main battle screen for an idle RPG game that enhances player interaction, ensures accessibility for key gameplay features, and maintains a consistent theme aligned with the fantasy genre.",
+          "highlight": [
+            "main battle screen"
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Target Audience:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Casual Players: Focused on ease of use and intuitive controls for new users.",
+              "highlight": [
+                "Casual Players"
+              ]
+            },
+            {
+              "text": "Hardcore Players: Expect detailed stats, efficient navigation, and access to advanced mechanics.",
+              "highlight": [
+                "Hardcore Players"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Role: UI/UX Designer"
         },
         {
           "type": "text",
-          "content": "Target Audience:\n• Casual Players: Focused on ease of use and intuitive controls for new users.\n• Hardcore Players: Expect detailed stats, efficient navigation, and access to advanced mechanics."
-        },
-        {
-          "type": "text",
-          "content": "Role: UI/UX Designer\n• Collaborated with game designers, developers, and artists to conceptualize, prototype, and implement the final UI design."
+          "content": "Collaborated with game designers, developers, and artists to conceptualize, prototype, and implement the final UI design."
         },
         {
           "type": "heading",
@@ -38,9 +62,24 @@
         {
           "type": "list",
           "items": [
-            "Cluttered Information: Idle RPG games often overwhelm players with resource data, character stats, and menu options.",
-            "Navigation Complexity: Players need quick access to various features like upgrades, quests, and party management without disrupting gameplay.",
-            "Theme Integration: The interface needed to feel immersive and aligned with the game’s fantasy world."
+            {
+              "text": "Cluttered Information: Idle RPG games often overwhelm players with resource data, character stats, and menu options.",
+              "highlight": [
+                "Cluttered Information"
+              ]
+            },
+            {
+              "text": "Navigation Complexity: Players need quick access to various features like upgrades, quests, and party management without disrupting gameplay.",
+              "highlight": [
+                "Navigation Complexity"
+              ]
+            },
+            {
+              "text": "Theme Integration: The interface needed to feel immersive and aligned with the game\u2019s fantasy world.",
+              "highlight": [
+                "Theme Integration"
+              ]
+            }
           ]
         },
         {
@@ -50,10 +89,30 @@
         {
           "type": "list",
           "items": [
-            "Create a clear information hierarchy to prioritize combat-critical elements.",
-            "Design touch-friendly controls for mobile platforms while retaining usability for desktop players.",
-            "Ensure visual cohesion between the UI and the game’s fantasy aesthetic.",
-            "Provide real-time feedback for player actions and battle progress."
+            {
+              "text": "Create a clear information hierarchy to prioritize combat-critical elements.",
+              "highlight": [
+                "clear information hierarchy"
+              ]
+            },
+            {
+              "text": "Design touch-friendly controls for mobile platforms while retaining usability for desktop players.",
+              "highlight": [
+                "touch-friendly controls"
+              ]
+            },
+            {
+              "text": "Ensure visual cohesion between the UI and the game\u2019s fantasy aesthetic.",
+              "highlight": [
+                "visual cohesion"
+              ]
+            },
+            {
+              "text": "Provide real-time feedback for player actions and battle progress.",
+              "highlight": [
+                "real-time feedback"
+              ]
+            }
           ]
         },
         {
@@ -61,88 +120,235 @@
           "content": "Research and Analysis"
         },
         {
-          "type": "text",
-          "content": "User Research:\n• Conducted surveys and interviews with players of similar idle RPG games to understand their pain points and preferences.\n• Key findings:\n  • Players value clear visual indicators during battles.\n  • Simplified navigation and quick access to upgrades enhance engagement.\n  • Animations and feedback improve satisfaction."
+          "type": "secondary",
+          "content": "Competitive Analysis"
         },
         {
-          "type": "text",
-          "content": "Competitive Analysis:\n• Analyzed successful idle RPG games for UI/UX design patterns.\n• Observed the balance between game aesthetics and practicality in interfaces."
+          "type": "list",
+          "items": [
+            "Analyzed successful idle RPG games for UI/UX design patterns.",
+            {
+              "text": "Observed the balance between game aesthetics and practicality in interfaces.",
+              "highlight": [
+                "game aesthetics",
+                "practicality"
+              ]
+            }
+          ]
         },
         {
           "type": "heading",
           "content": "Design Process"
         },
         {
-          "type": "text",
-          "content": "Wireframing:\n• Sketched layouts to test the placement of key elements:\n  • Top Bar: Combat-critical stats (HP, player/enemy level).\n  • Bottom Bar: Actionable elements like skills and abilities.\n  • Side Panels: Secondary options (inventory, upgrades, shop)."
+          "type": "secondary",
+          "content": "Wireframing"
         },
         {
           "type": "image",
           "src": "images/projects/project1/large-battle-wireframe.png"
         },
         {
+          "type": "list",
+          "items": [
+            "Sketched layouts to test the placement of key elements:",
+            {
+              "text": "Top Bar: Combat-critical stats (HP, player/enemy level).",
+              "highlight": [
+                "Top Bar"
+              ]
+            },
+            {
+              "text": "Bottom Bar: Actionable elements like skills and abilities.",
+              "highlight": [
+                "Bottom Bar"
+              ]
+            },
+            {
+              "text": "Side Panels: Secondary options (inventory, upgrades, shop).",
+              "highlight": [
+                "Side Panels"
+              ]
+            }
+          ]
+        },
+        {
           "type": "heading",
           "content": "Final Design Features"
         },
         {
-          "type": "heading",
-          "content": "6.1 Information Hierarchy"
+          "type": "secondary",
+          "content": "Information Hierarchy"
         },
         {
-          "type": "text",
-          "content": "Top Bar:\n• Displays HP bars (player and enemy) prominently for quick monitoring.\n• Levels and progress timers are visible without distracting from the battle."
+          "type": "strong",
+          "content": "Top Bar:"
         },
         {
-          "type": "text",
-          "content": "Center Screen:\n• Focuses on visualizing the battle with character models and animations."
+          "type": "list",
+          "items": [
+            {
+              "text": "Displays HP bars (player and enemy) prominently for quick monitoring.",
+              "highlight": [
+                "HP bars"
+              ]
+            },
+            "Levels and progress timers are visible without distracting from the battle."
+          ]
         },
         {
-          "type": "text",
-          "content": "Quest Panel (Bottom Left):\n• Highlights active quests with progress bars and actionable instructions."
+          "type": "strong",
+          "content": "Center Screen:"
         },
         {
-          "type": "text",
-          "content": "Action Panel (Bottom Center):\n• Skill buttons are visually distinct with cooldown timers and ready-state feedback."
+          "type": "list",
+          "items": [
+            {
+              "text": "Focuses on visualizing the battle with character models and animations.",
+              "highlight": [
+                "visualizing the battle"
+              ]
+            }
+          ]
         },
         {
-          "type": "heading",
-          "content": "6.2 Visual Design"
+          "type": "strong",
+          "content": "Quest Panel (Bottom Left):"
         },
         {
-          "type": "text",
-          "content": "Color Palette:\n• Used vibrant colors (green for upgrades, red for health) for clarity and engagement."
+          "type": "list",
+          "items": [
+            "Highlights active quests with progress bars and actionable instructions."
+          ]
         },
         {
-          "type": "text",
-          "content": "Typography:\n• Clear, readable fonts with proper scaling for mobile and desktop platforms."
+          "type": "strong",
+          "content": "Action Panel (Bottom Center):"
         },
         {
-          "type": "heading",
-          "content": "6.3 Accessibility and Interaction"
+          "type": "list",
+          "items": [
+            "Skill buttons are visually distinct with cooldown timers and ready-state feedback."
+          ]
         },
         {
-          "type": "text",
-          "content": "Touch-Friendly Design:\n• Large, easily tappable buttons for mobile users."
+          "type": "secondary",
+          "content": "Visual Design"
         },
         {
-          "type": "text",
-          "content": "Dynamic Feedback:\n• Coin pickups, glowing buttons, and HP bar animations add a layer of interactivity."
+          "type": "strong",
+          "content": "Color Palette:"
         },
         {
-          "type": "text",
-          "content": "Platform Scalability:\n• Optimized layouts for seamless transitions between mobile and desktop gameplay."
+          "type": "list",
+          "items": [
+            "Used vibrant colors for clarity and engagement.",
+            "Background art complements the fantasy theme without overshadowing UI elements."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Typography:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clear, readable fonts with proper scaling for mobile and desktop platforms."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Iconography:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Custom icons designed to reflect their functions intuitively (e.g., guild, shop, upgrades)."
+          ]
+        },
+        {
+          "type": "secondary",
+          "content": "Accessibility and Interaction"
+        },
+        {
+          "type": "strong",
+          "content": "Touch-Friendly Design:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Large, easily tappable buttons for mobile users."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Dynamic Feedback:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Coin pickups, glowing buttons, and HP bar animations add a layer of interactivity."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Platform Scalability:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Optimized layouts for seamless transitions between mobile and desktop gameplay."
+          ]
         },
         {
           "type": "heading",
           "content": "Challenges and Solutions"
         },
         {
-          "type": "list",
-          "items": [
-            "Challenge 1: Managing screen clutter while retaining functionality.\nSolution: Organized elements into panels and prioritized key features (e.g., quests, upgrades) based on player interaction frequency.",
-            "Challenge 2: Ensuring usability for new and experienced players.\nSolution: Created tooltips and added visual guides (e.g., quest progress indicators) for first-time users while maintaining quick access for experienced players.",
-            "Challenge 3: Aligning UI with the fantasy theme.\nSolution: Designed custom icons and backgrounds inspired by medieval and fantasy motifs."
+          "type": "highlighted-text",
+          "text": "Challenge 1: Managing screen clutter while retaining functionality.",
+          "highlight": [
+            "Managing screen clutter while retaining functionality"
           ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Solution: Organized elements into panels and prioritized key features (e.g., quests, upgrades) based on player interaction frequency.",
+          "highlight": [
+            "Solution"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Challenge 2: Ensuring usability for new and experienced players.",
+          "highlight": [
+            "Ensuring usability for new and experienced players"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Solution: Created tooltips and added visual guides (e.g., quest progress indicators) for first-time users while maintaining quick access for experienced players.",
+          "highlight": [
+            "Solution"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Challenge 3: Aligning UI with the fantasy theme.",
+          "highlight": [
+            "Aligning UI with the fantasy theme"
+          ]
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Solution: Designed custom icons and backgrounds inspired by medieval and fantasy motifs.",
+          "highlight": [
+            "Solution"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Before-and-After Comparison:"
         },
         {
           "type": "image",
@@ -153,14 +359,110 @@
           "src": "images/projects/project1/after-main-battle.png"
         },
         {
-          "type": "heading",
-          "content": "Results and Impact"
+          "type": "secondary",
+          "content": "Main Improvements in UX"
+        },
+        {
+          "type": "strong",
+          "content": "Enhanced Readability & Information Layout"
         },
         {
           "type": "list",
           "items": [
-            "Qualitative Feedback:\n• Players appreciated the clear hierarchy and immersive visuals.",
-            "Testers reported a smoother navigation experience compared to the previous iteration."
+            "I ensured the new UI has a much cleaner structure by grouping key elements like health bars, character abilities, and resource counters more effectively. This makes it easier for players to quickly grasp important information without feeling overwhelmed.",
+            "I also focused on making icons and labels more visually distinct to reduce cognitive load and improve clarity during gameplay."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Improved Visual Hierarchy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "In the new design, I used better color contrasts and alignment to highlight interactive elements, such as the \"Boss\" and \"Shop\" buttons. These elements are now more prominent and naturally guide the player's focus to critical actions during gameplay."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Streamlined Navigation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I reorganized the navigation by grouping core menus like Town, Map, Shop, and Guild in a vertical side panel. This creates a more intuitive flow, allowing players to switch between actions effortlessly.",
+            "Additionally, I positioned key in-battle interactions, such as Heroe abilities, near the bottom center of the screen for easier access during fast-paced gameplay."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Better Feedback Mechanisms"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I added dynamic counters and visual cues, such as flashing icons and highlighted goals, to provide players with immediate feedback. These additions enhance the player's understanding of progress and objectives in real time."
+          ]
+        },
+        {
+          "type": "secondary",
+          "content": "Main Improvements in UI"
+        },
+        {
+          "type": "strong",
+          "content": "Modernized Graphics"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I updated the icons and backgrounds with more detailed and vibrant designs, giving the game a modern and polished aesthetic.",
+            "The ability icons were also refined to make them sharper and more easily recognizable, which helps players make faster decisions."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Minimized Clutter"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The old design felt crowded due to overlapping elements, so I focused on decluttering the screen by spacing out and organizing UI components more effectively. This improved the overall user experience and reduced visual noise."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Interactive Elements' Design"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I redesigned buttons and interactive elements with a rounded, vibrant style and added useful features like tooltips and counters. These updates make the interface more usable and visually appealing.",
+            "I also emphasized objectives like \"Kill 80 enemies\" in the quest panel, ensuring they stand out and draw immediate attention."
+          ]
+        },
+        {
+          "type": "strong",
+          "content": "Consistent Style"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I applied a cohesive visual style across all elements in the UI, including consistent button shapes, typography, and color schemes. This unified the design and created a seamless player experience."
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Product success"
+        },
+        {
+          "type": "strong",
+          "content": "Qualitative Feedback:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clear Hierarchy: Players appreciated the clear hierarchy and the immersive visuals.",
+            "Smoother Navigation: Testers reported a smoother navigation experience compared to the previous iteration."
           ]
         },
         {
@@ -170,8 +472,18 @@
         {
           "type": "list",
           "items": [
-            "User Feedback is Key: Iterative testing helped fine-tune the interface to balance aesthetics and usability.",
-            "Clarity Over Complexity: Simplified designs are more engaging and easier to navigate, especially for mobile users."
+            {
+              "text": "User Feedback is Key: Iterative testing helped fine-tune the interface to balance aesthetics and usability.",
+              "highlight": [
+                "User Feedback is Key"
+              ]
+            },
+            {
+              "text": "Clarity Over Complexity: Simplified designs are more engaging and easier to navigate, especially for mobile users.",
+              "highlight": [
+                "Clarity Over Complexity"
+              ]
+            }
           ]
         }
       ]
@@ -627,7 +939,7 @@
           "src": "images/projects/project2/item-shop.png"
         }
       ]
-    },    
+    },
     {
       "id": 3,
       "title": "Designing Seasonal Events Promotional Banners",
