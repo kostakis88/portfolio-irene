@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Promotional Design for Google Play – Firestone Idle RPG',
+      title: 'Designing Seasonal Event Promotional Banners - Firestone Idle RPG',
       description: 'Festive Flair: Captivating Banner Designs for Seasonal Promotions',
       imgSrc: seasonal,
       imgAlt: 'Seasonal Events Image',
@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Designing Seasonal Event Promotional Banners - Firestone Idle RPG',
+      title: 'Promotional Design for Google Play – Firestone Idle RPG',
       description: "Crafting Eye-Catching App Store Visuals for Game Promotions",
       imgSrc: promo,
       imgAlt: 'Promo Image',

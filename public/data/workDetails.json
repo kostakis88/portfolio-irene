@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Main Battle Screen for Idle RPG Game",
-      "subtitle": "Designing a Visually Engaging and Intuitive Main Battle Screen",
+      "subtitle": "Designing an Intuitive Fantasy Battle Screen for Idle RPG Adventures",
       "tags": [
         {
           "href": "/services/full-time-role",
@@ -179,7 +179,7 @@
     {
       "id": 2,
       "title": "Gem Store UI for Idle RPG Game",
-      "subtitle": "Designing a Monetization-Focused and Engaging Gem Store Interface",
+      "subtitle": "Creating Engaging Interfaces to Boost Purchases and Drive Monetization",
       "tags": [
         {
           "href": "/services/full-time-role",
@@ -354,7 +354,7 @@
     {
       "id": 3,
       "title": "Designing Seasonal Events Promotional Banners",
-      "subtitle": "Crafting Engaging Banners to Captivate and Motivate Players",
+      "subtitle": "Festive Flair: Captivating Banner Designs for Seasonal Promotions",
       "tags": [
         {
           "href": "/services/full-time-role",
@@ -557,8 +557,8 @@
     },        
     {
       "id": 4,
-      "title": "Promotional Design for Google Play – Idle RPG Game",
-      "subtitle": "Creating Compelling Visuals to Drive User Downloads",
+      "title": "Promotional Design for Google Play",
+      "subtitle": "Crafting Eye-Catching App Store Visuals for Game Promotions",
       "tags": [
         {
           "href": "/services/full-time-role",
@@ -576,111 +576,238 @@
         },
         {
           "type": "text",
-          "content": "Objective: My objective was to create a series of visually compelling promotional assets for an idle RPG game, specifically optimized for Google Play. The goal was to drive user downloads by highlighting the game’s engaging gameplay mechanics, character diversity, and unique features through attractive and informative visuals."
+          "content": "My objective was to create a series of visually compelling promotional assets for an idle RPG game, specifically optimized for Google Play. The goal was to drive user downloads by highlighting the game’s engaging gameplay mechanics, character diversity, and unique features through attractive and informative visuals."
         },
         {
-          "type": "text",
-          "content": "Role: As the UI/UX Designer, I was responsible for conceptualizing, designing, and delivering these promotional materials. I ensured that every asset aligned with the game’s branding and adhered to Google Play’s requirements."
-        },
-        {
-          "type": "heading",
-          "content": "My Design Process"
+          "type": "highlighted-text",
+          "text": "As the UI/UX Designer, I was responsible for conceptualizing, designing, and delivering these promotional materials. I ensured that every asset aligned with the game’s branding and adhered to Google Play’s requirements.",
+          "highlight": ["UI/UX Designer"]
         },
         {
           "type": "heading",
-          "content": "1. Understanding the Target Audience"
+          "content": "Design Process"
+        },
+        {
+          "type": "secondary",
+          "content": "Understanding the Target Audience"
         },
         {
           "type": "text",
-          "content": "Target Group: Fantasy and RPG enthusiasts, aged 25-45, who are drawn to vibrant graphics and immersive narratives."
+          "content": "To start, I needed to understand the preferences and expectations of the game's target audience."
+        },
+        {
+          "type": "strong",
+          "content": "Target Group:"
         },
         {
           "type": "text",
-          "content": "User Expectations:\n• High-quality visuals that convey the game's depth and excitement.\n• Emphasis on standout features like character evolution, epic battles, and competitive rankings."
+          "content": "Fantasy and RPG enthusiasts, aged 25-45, who are drawn to vibrant graphics and immersive narratives."
         },
         {
-          "type": "heading",
-          "content": "2. Research & Inspiration"
+          "type": "strong",
+          "content": "User Expectations:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "High-quality visuals that convey the game's depth and excitement.",
+            "Emphasis on standout features like character evolution, epic battles, and competitive rankings.",
+            "Overwhelming users.",
+            "Iteratively refined designs based on feedback from the team and stakeholders."
+          ]
+        },
+        {
+          "type": "secondary",
+          "content": "Research & Inspiration"
         },
         {
           "type": "text",
-          "content": "Competitor Analysis: I analyzed top-performing RPG games on Google Play to identify visual trends. Key takeaways included the use of vibrant colors, dynamic poses, and clear calls-to-action (CTAs). This analysis helped me ensure that each promotional asset was visually engaging while standing out from the competition."
+          "content": "I conducted thorough research to guide my designs:"
+        },
+        {
+          "type": "strong",
+          "content": "Competitor Analysis:"
         },
         {
           "type": "text",
-          "content": "Google Play Guidelines: I reviewed Google Play’s specifications for resolution, aspect ratio, and layout to guarantee compliance and optimal display across devices."
+          "content": "I analyzed top-performing RPG games on Google Play to identify visual trends."
+        },
+        {
+          "type": "highlighted-text",
+          "text": "Key takeaways included the use of vibrant colors, dynamic poses, and clear calls-to-action (CTAs). This analysis helped me ensure that each promotional asset was visually engaging while standing out from the competition.",
+          "highlight": ["colors", "dynamic poses", "and clear" ,"calls-to-action", "CTAs"]
+        },
+        {
+          "type": "strong",
+          "content": "Google Play Guidelines:"
+        },
+        {
+          "type": "text",
+          "content": "I reviewed Google Play’s specifications for resolution, aspect ratio, and layout to guarantee compliance and optimal display across devices."
         },
         {
           "type": "heading",
           "content": "Final Design Breakdown"
         },
         {
-          "type": "text",
-          "content": "1. Win Epic Battles: Showcasing a dynamic in-game battle scene with heroes and enemies in action, this design highlights core gameplay mechanics."
+          "type": "secondary",
+          "content": "Win Epic Battles"
+        },
+        {
+          "type": "strong",
+          "content": "Description:"
         },
         {
           "type": "text",
-          "content": "My Approach:\n• I used vibrant visuals and dynamic poses to capture the excitement of battle.\n• The bright, bold CTA “Win Epic Battles” ensures the message stands out."
+          "content": "Showcasing a dynamic in-game battle scene with heroes and enemies in action, this design highlights core gameplay mechanics."
+        },
+        {
+          "type": "strong",
+          "content": "My Approach:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I used vibrant visuals and dynamic poses to capture the excitement of battle.", 
+            "The bright, bold CTA “Win Epic Battles” ensures the message stands out."
+          ]
         },
         {
           "type": "image",
           "src": "images/projects/project4/epic-battles.png"
         },
         {
-          "type": "text",
-          "content": "2. Unlock Heroes: A visually layered asset featuring a grid of diverse characters and a hero in an action pose."
+          "type": "secondary",
+          "content": "Unlock Heroes"
+        },
+        {
+          "type": "strong",
+          "content": "Description:"
         },
         {
           "type": "text",
-          "content": "My Approach:\n• I utilized effective layering to add depth to the composition.\n• Highlighting character variety appeals to players who value customization.\n• Bold text (“Unlock Heroes”) clearly communicates the feature."
+          "content": "A visually layered asset featuring a grid of diverse characters and a hero in an action pose."
+        },
+        {
+          "type": "strong",
+          "content": "My Approach:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I utilized effective layering to add depth to the composition.", 
+            "Highlighting character variety appeals to players who value customization.",
+            "Bold text (“Unlock Heroes”) clearly communicates the feature.",
+            "Highlights a grid of diverse characters available in the game, paired with a dynamic action pose in the foreground."
+          ]
         },
         {
           "type": "image",
           "src": "images/projects/project4/unlock-heroes.png"
         },
         {
-          "type": "text",
-          "content": "3. Dominate Rankings: Displays a leaderboard interface with a character celebrating victory, emphasizing competitive gameplay."
+          "type": "secondary",
+          "content": "Dominate Rankings"
+        },
+        {
+          "type": "strong",
+          "content": "Description:"
         },
         {
           "type": "text",
-          "content": "My Design Approach:\n• Eye-catching character pose conveys triumph.\n• Clear distinction between “Global” and “Local” rankings, appealing to competitive players."
+          "content": "Displays a leaderboard interface with a character celebrating victory, emphasizing competitive gameplay."
+        },
+        {
+          "type": "strong",
+          "content": "My Approach:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Eye-catching character pose conveys triumph.", 
+            "Clear distinction between “Global” and “Local” rankings, appealing to competitive players."
+          ]
         },
         {
           "type": "image",
           "src": "images/projects/project4/dominate-rankings.png"
         },
         {
-          "type": "text",
-          "content": "4. Save The World: Features an illustrated game map with key locations and a hero character in the foreground, emphasizing exploration and story."
+          "type": "secondary",
+          "content": "Save The World"
+        },
+        {
+          "type": "strong",
+          "content": "Description:"
         },
         {
           "type": "text",
-          "content": "My Design Approach:\n• Vibrant and detailed map design captures the sense of adventure.\n• Clear CTA (“Save The World”) aligns with the game’s narrative theme."
+          "content": "Features an illustrated game map with key locations and a hero character in the foreground, emphasizing exploration and story."
+        },
+        {
+          "type": "strong",
+          "content": "My Approach:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vibrant and detailed map design captures the sense of adventure.", 
+            "Clear CTA (“Save The World”) aligns with the game’s narrative theme."
+          ]
         },
         {
           "type": "image",
           "src": "images/projects/project4/save-the-world.png"
         },
         {
-          "type": "text",
-          "content": "5. Fight Bosses: Displays a lineup of villainous bosses, emphasizing challenging gameplay."
+          "type": "secondary",
+          "content": "Fight Bosses"
+        },
+        {
+          "type": "strong",
+          "content": "Description:"
         },
         {
           "type": "text",
-          "content": "My Design Approach:\n• Unique boss designs create visual intrigue.\n• Darker tones contrast well with other promotional materials, showcasing variety."
+          "content": "Displays a lineup of villainous bosses, emphasizing challenging gameplay."
+        },
+        {
+          "type": "strong",
+          "content": "My Approach:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Unique boss designs create visual intrigue.", 
+            "Darker tones contrast well with other promotional materials, showcasing variety."
+          ]
         },
         {
           "type": "image",
           "src": "images/projects/project4/fight-bosses.png"
         },
         {
-          "type": "text",
-          "content": "6. Evolve Angels: Highlights the evolution mechanic, showing character progression from basic to advanced forms."
+          "type": "secondary",
+          "content": "Evolve Angels"
+        },
+        {
+          "type": "strong",
+          "content": "Description:"
         },
         {
           "type": "text",
-          "content": "My Design Approach:\n• Clear progression visuals with arrows and glowing effects.\n• Bright and engaging color palette."
+          "content": "Highlights the evolution mechanic, showing character progression from basic to advanced forms."
+        },
+        {
+          "type": "strong",
+          "content": "My Approach:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clear progression visuals with arrows and glowing effects.", 
+            "Bright and engaging color palette."
+          ]
         },
         {
           "type": "image",
@@ -688,18 +815,28 @@
         },
         {
           "type": "heading",
-          "content": "Outcome and Impact"
+          "content": "Product Success"
+        },
+        {
+          "type": "strong",
+          "content": "Measurable Results:"
         },
         {
           "type": "list",
           "items": [
-            "The game saw a 25% increase in downloads within the first month of launch.",
+            "The game saw an increase in downloads within the first month of launch",
             "Players provided positive feedback, praising the visuals for being both appealing and informative."
           ]
         },
         {
-          "type": "text",
-          "content": "Stakeholder Feedback: Stakeholders commended the designs for effectively capturing the game’s core features and excitement. They appreciated how well the visuals aligned with the brand’s vision."
+          "type": "strong",
+          "content": "Stakeholder Feedback:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Stakeholders commended the designs for effectively capturing the game’s core features and excitement. They appreciated how well the visuals aligned with the brand’s vision."
+          ]
         },
         {
           "type": "heading",
@@ -707,14 +844,22 @@
         },
         {
           "type": "text",
-          "content": "This project reinforced the importance of blending high-quality visuals with clear messaging to capture user attention effectively."
+          "content": "This project highlighted how combining visually appealing designs with concise, effective messaging can successfully capture and hold user attention."
+        },
+        {
+          "type": "secondary",
+          "content": "Key Takeaways:"
         },
         {
           "type": "list",
           "items": [
-            "Research and iteration were crucial for aligning my designs with user expectations and industry trends.",
-            "Maintaining a consistent visual language across assets was essential for building a strong brand identity."
+            "In-depth research and continuous refinement were vital for ensuring my designs met user needs and aligned with industry standards.",
+            "Consistency in visual elements across all assets played a key role in building a cohesive and recognizable brand identity."
           ]
+        },
+        {
+          "type": "text",
+          "content": "Through this experience, I gained valuable insights into crafting visuals that not only resonate with users but also deliver tangible, impactful outcomes."
         }
       ]
     }    
