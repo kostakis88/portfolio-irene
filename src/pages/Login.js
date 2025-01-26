@@ -43,9 +43,9 @@ const Login = ({ onAuthenticated }) => {
           ref={inputRef}
           onChange={(e) => setPassword(e.target.value)}
         />
+        {error && <div className="login-error">Incorrect password, please try again.</div>}
         <button className="login-button" type="submit">Login</button>
       </form>
-      {error && <p>Incorrect password, please try again.</p>}
     </div>
   );
 };
