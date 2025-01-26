@@ -28,15 +28,16 @@ const Login = ({ onAuthenticated }) => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="login-wrapper">
+      <form className="login-form" onSubmit={handleSubmit}>
+        <h3 className="login-label">Enter Password</h3>
         <input
+          className="login-input"
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="Enter Password"
         />
-        <button type="submit">Login</button>
+        <button className="login-button" type="submit">Login</button>
       </form>
       {error && <p>Incorrect password, please try again.</p>}
     </div>
