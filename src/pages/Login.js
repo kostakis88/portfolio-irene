@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const Login = ({ onAuthenticated }) => {
+  const inputRef = useRef(null);
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
+
+  useEffect(() => {
+    inputRef.current.focus(); // Automatically focus the input on component mount
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -35,6 +40,7 @@ const Login = ({ onAuthenticated }) => {
           className="login-input"
           type="password"
           value={password}
+          ref={inputRef}
           onChange={(e) => setPassword(e.target.value)}
         />
         <button className="login-button" type="submit">Login</button>
