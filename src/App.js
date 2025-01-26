@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -12,17 +12,31 @@ const App = () => {
 
   const [authenticated, setAuthenticated] = useState(false);
 
+  // Check localStorage for authentication status on initial load
+  useEffect(() => {
+    const isAuthenticated = localStorage.getItem("authenticated");
+    if (isAuthenticated === "true") {
+      setAuthenticated(true);
+    }
+  }, []);
+
+  // Handle successful login
+  const handleLogin = () => {
+    setAuthenticated(true);
+    localStorage.setItem("authenticated", "true"); // Persist authentication status
+  };
+
   // Render Login if not authenticated
   if (!authenticated) {
     return (
       <Login
         onAuthenticated={() => {
-          setAuthenticated(true); // Toggle authentication when the user logs in
+          handleLogin
         }}
       />
     );
   }
-  
+
   return (
     <Router>
       <main className="main-wrapper">
